@@ -72,6 +72,8 @@
     margin-bottom: 20px !important; }
     .ah-footer-list li:first-child a {
       color: #cbd3d8  !important; }
+  .ah-footer-list li:first-child:hover a {
+    border-bottom: 2px solid red; }
 
 .ah-inffot {
   padding: 0px 30px;
@@ -142,13 +144,12 @@
   float: none;
   display: block; }
 
-.ah-fotbotblock2-span {
+.ah-fotbotblock1-span, .ah-fotbotblock2-span {
   display: table-cell;
-  vertical-align: middle; }
-
-.ah-fotbotblock1-span {
-  display: table-cell;
-  vertical-align: middle; }
+  vertical-align: middle;
+  padding-right: 6px;
+  font-family: MC-700;
+  font-size: 12px; }
 
 .ah-cardimg {
   display: table-cell;
