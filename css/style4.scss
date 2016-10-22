@@ -2,8 +2,216 @@
 @import "style.css";
 @import "style2.css";
 @import "style3.css";
-@import "style4.css";
+@import "style5.css";
+@import "style6.css";
 @import "fonts.css";
+
+
+.ab-header{
+	.ab-header-logo{
+		img{
+			margin: 0 auto;
+		}
+	}
+	.ab-logo-txt{
+		text-align: center;
+		span {
+		    color: #b9b9b9;
+		    display: inline-block;
+		    font-family: MC-700;
+		    font-size: 12px;
+		    margin-top: 30px;
+		    vertical-align: middle;
+		}
+	}
+	.ab-phone{
+		text-align: center;
+		.ab-grey1{
+			color:#C5C5C5;
+			font-size: 21px;
+			font-family: MC-700;
+		}
+		.ab-grey2{
+			  color: #9b9b9b;
+			  font-family: MSC-500;
+			  font-size: 11px;
+			  margin-top: 5px;
+		}
+		.ab-next-phone{
+			color:black;
+			font-size: 21px;
+			font-family: MC-700;
+		}
+	}
+	.ab-soc{
+		margin: 0 auto;
+		width: 93px;
+		span{
+			color: #000;
+		    font-family: MC-700;
+		    font-size: 12px;
+		    display: block;
+		    float: left;
+		    padding-top: 7px;
+		    padding-right: 4px;
+		}
+	}
+	.ab-korzina-wrap{
+		width: 250px;
+		margin: 0 auto;
+		position: relative;
+		margin-top: 12px;
+		img{
+			width: 32px;
+			height: 32px;
+			position:absolute;
+			top: 9px;
+			}
+		.ab-two-wr{
+			padding-left:52px;
+			.ab-korzina{
+				span{
+					a{
+						border-bottom: 2px dotted #2f64ad;
+					    color: #2f64ad;
+					    font-family: MC-500;
+					    font-size: 13px;
+					}
+				}
+			}
+			.ab-korzina:nth-child(1){
+				span:last-child{
+					background: url(../img/zamok.png) no-repeat left center;
+					width: 11px;
+					height: 14px;
+					margin-left: 76px;
+				    padding-left: 16px;
+				}
+			}
+			.ab-korzina:nth-child(2){
+				padding-top:14px;
+				span:first-child{
+					color: #c5c5c5;
+				    font-family: MC-500;
+				    font-size: 12px;
+				}
+				span:last-child{
+					color: #000;
+				    font-family: MC-700;
+				    padding-left: 12px;
+				}
+			}
+		}	
+	}
+}
+
+/*================ Меню ================*/
+
+.tpl-menuTop {
+	margin-top:9px;
+    border-bottom: 1px solid #e5e5e3;
+    border-top: 1px solid #e5e5e3;
+    box-shadow: 0 2px 5px #eaeaea;
+    .brd{
+    	font-size: 0;
+    	ul{
+    		li{
+    			
+			    font-family: MSC-2;
+			    font-size: 11px;
+			    text-transform: uppercase;
+			    vertical-align: middle;
+			    a{
+			    	color: #434343;
+			    	border-bottom: 2px solid transparent;
+				    color: #434343;
+				    display: block;
+				    padding: 20px 28px;
+				    transition: border-bottom 0.5s ease 0s;
+				    width: 200px;
+				    margin: 0 auto;
+				    text-align: center;
+			    }
+			    a:hover{
+			    	border-bottom:2px solid red;
+			    }
+		        .ab-next-menu{
+			    	text-align: center;
+			    	 .Reiker{
+						text-transform: none;
+						padding-bottom:15px;
+						color:#717678;
+				    }
+				    .Reiker2{
+						padding-top:15px;
+				    }
+			    	li{
+
+				    	a{
+							padding:0;
+							color:#2F64AD;
+							border-bottom: 2px dotted #2f64ad;
+							font-size: 13px;
+							font-family: MC-500;
+							text-transform: none;
+							margin-bottom:5px;
+							//outline: 1px solid red;
+							width: 102px;
+
+						}
+					}
+			    }
+    		}
+
+
+    		.blk-search{
+				width: 220px;
+				margin: 0 auto; 
+				input[type="text"] {
+				    background: #f9f9f9 url("/img/ico-search.png") no-repeat scroll 9px center;
+				    border: 1px solid #e5e5e3;
+				    box-sizing: border-box;
+				    display: inline-block;
+				    margin-left: 6%;
+				    padding: 6px;
+				    vertical-align: top;
+				    width: 126px;
+				    height: 28px;
+				}
+				input[type="submit"] {
+				    -moz-border-bottom-colors: none;
+				    -moz-border-left-colors: none;
+				    -moz-border-right-colors: none;
+				    -moz-border-top-colors: none;
+				    background: #fff none repeat scroll 0 0;
+				    border-color: #e5e5e3 #e5e5e3 #e5e5e3 -moz-use-text-color;
+				    border-image: none;
+				    border-style: solid solid solid none;
+				    border-width: 1px 1px 1px 0;
+				    box-sizing: border-box;
+				    color: #919191;
+				    display: inline-block;
+				    font-family: MC-700;
+				    font-size: 12px;
+				    line-height: 0;
+				    padding: 13px 9px;
+				    vertical-align: top;
+				    width: 72px;
+				    margin-left: -3px;
+				}
+    		}
+    		a, input[type="submit"], input[type="button"], button {
+			    cursor: pointer;
+			}
+    	}
+    }
+}
+
+
+
+/*============= Конец Меню =============*/
+
+
 
 @media only screen and (min-width : 320px) {
 }
@@ -12,9 +220,114 @@
 }
 
 @media only screen and (min-width : 768px) {
+
 }
 
 @media only screen and (min-width : 992px) {
+
+	.ab-header{
+		.ab-header-logo{	
+			float: left;
+			margin-left:0; 
+		}
+		.ab-phone, .ab-soc{
+			margin-left: 64px;
+			padding-top:22px;
+		}
+		.ab-logo-txt{
+			margin-left: 15px;
+			text-align: left;
+			float: left;
+		}
+		.ab-phone{
+			float: left;
+		}
+		.ab-soc{
+			float: left;
+		}
+		.ab-korzina-wrap{
+			float: right;
+		}
+	}
+	.tpl-menuTop {
+	    .brd{
+	    	ul{
+	    		li{
+				    font-family: MSC-2;
+				    font-size: 11px;
+				    text-transform: uppercase;
+				    vertical-align: middle;
+				    display: inline-block;
+				    border-right:1px solid #E5E5E3;
+				    a{
+					    padding: 20px 56px 20px 20px;
+					    width: 100%;
+				    }
+				    .ab-next-menu{
+				    	display: none;
+				    }
+				    .Reiker{
+						text-transform: none;
+						padding-bottom:15px;
+				    }
+				    .Reiker2{
+						padding-top:15px;
+				    }
+	    		}
+	    			.ab-proc{
+    			position:relative;
+				
+    		}
+    		.ab-proc:after{
+    			position:absolute;
+    			content: "";
+				background:url("/img/ab-proc.png") no-repeat;
+				width:16px;
+				height: 16px; 
+				right: 40px;
+			    top: 6px;
+    		}
+	    		li:hover .ab-next-menu{
+	    			text-align: left;
+					display: block;
+					position:absolute;
+					background:#fff;
+					padding-top:25px;
+					color:#757779;
+					text-transform: none;
+					padding-left:22px;
+					padding-right:73px;
+					border-radius:5px;
+			    	li{
+						display: block;
+						border-right:none;
+						a{
+							padding:0;
+							color:#2F64AD;
+							border-bottom: 2px dotted #2f64ad;
+							font-size: 13px;
+							font-family: MC-500;
+							text-transform: none;
+							margin-bottom:5px;
+						}
+						a:hover{
+							border-bottom: 2px dotted #2f64ad;
+						}
+			    	}
+	    		}
+	    		.blk-search{
+					padding-right:0;
+					border-right:none;
+	    		}
+
+	    		li:first-child a{
+				    padding-left: 0;
+				    text-align: left;
+				    position:relative;
+				}
+	    	}
+	    }
+	}		
 }
 
 @media only screen and (min-width : 1248px) {
