@@ -134,6 +134,8 @@
 		margin-bottom: 20px !important;
 		a{
 			color: #cbd3d8  !important;
+			border-bottom: 2px solid transparent;
+			transition: border-bottom 0.7s ease 0s;
 		}
 	}
 	li:first-child:hover{
