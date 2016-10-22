@@ -4,5 +4,11 @@
 @import url(style3.css);
 @import url(style4.css);
 @import url(fonts.css);
+.ah-footer-list {
+  display: inline-block;
+  color: #737678;
+  font-family: MSC-2;
+  font-size: 11px;
+  line-height: 10px; }
 
 /*# sourceMappingURL=style2.css.map */
