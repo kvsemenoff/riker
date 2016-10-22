@@ -1,92 +1,38 @@
 <div class="clearfix"></div>
-<section class="footer">
+<section class="n-news">
     <div class="container">
         <div class="row">
-            <div class="col-md-8 col-sm-8 col-xs-12 ">
-		      <ul class="ah-footer-list">
-		      	<li><a href="#">Каталог товаров</a></li>
-		      	<li><a href="#">Женская обувь</a></li>
-		      	<li><a href="#">Мужская обувь</a></li>
-		      	<li><a href="#">Сумки</a></li>
-		      	<li><a href="#">Одежда</a></li>
-		      </ul>
-		      <ul class="ah-footer-list">
-		      	<li><a href="#">Сервис</a></li>
-		      	<li><a href="#">Доставка</a></li>
-		      	<li><a href="#">Оплата</a></li>
-		      	<li><a href="#">Возврат товара</a></li>
-		      	<li><a href="#">Отзывы клиентов</a></li>
-		      </ul>
-		      <ul class="ah-footer-list">
-		      	<li><a href="#">Дополнительно</a></li>
-		      	<li><a href="#">Таблица размеров</a></li>
-		      	<li><a href="#">Советы по уходу за обувью</a></li>
-		      	<li><a href="#">Обувь больших размеров</a></li>
-		      	<li><a href="#">Ответы на вопросы</a></li>
-		      </ul>
-		      <ul class="ah-footer-list">
-		      	<li><a href="#">О нас</a></li>
-		      	<li><a href="#">О компании</a></li>
-		      	<li><a href="#">Публичная оферта</a></li>
-		      	<li><a href="#">Сертификаты</a></li>
-		      	<li><a href="#">Фирменные магазины</a></li>
-		      </ul>
-		      <ul class="ah-footer-list">
-		      	<li><a href="#">Личный кабинет</a></li>
-		      	<li><a href="#">Вход / Регистрация</a></li>
-		      	<li><a href="#">Мои заказы</a></li>
-		      	<li><a href="#">Корзина</a></li>
-		      	<li><a href="#">Контакты</a></li>
-		      </ul>
-            </div>
-            <div class="col-md-4 col-sm-4 col-xs-12 ah-inffot">
-				<div class="ah-logoblock">
-					<div class="ah-logoimg">
-						<img src="img/footer-logo.png" class="img-responsive" alt="footer-logo">
-					</div>
-					<span class="ah-logoblock-span"><span>8 (800)</span> 707-01-81</span>
-				</div>
-				<form class="ah-footform">
-					<input type="text" name="poisk">
-					<input type="submit" value="Найти">
-				</form>
+            <div class="col-md-12 col-sm-12 col-xs-12 ">
+				<span class="n-news-span">Последние новости</span>
+				<a href="#" class="n-news-link">Все новости</a>
 				<div class="clearfix"></div>
-				<div class="ah-fotbotblock">
-					<div class="ah-fotbotblock1">
-						<span class="ah-fotbotblock1-span">Мы принимаем</span>
-						<div class="ah-cardimg">
-							<img src="img/ico-cards.png" alt="ico-cards.png">
-						</div>
+				<span class="n-news-span1">17 апреля 2016</span>
+            </div>
+            <div class="clearfix"></div>
+            <div class="col-md-4 col-sm-4 col-xs-12">
+				<div class="ah-newswrapp">
+					<div class="ah-news-imgbox">
+						<img src="img/ah-news1.jpg" class="img-responsive" alt="ah-news1">
 					</div>
-					<div class="ah-fotbotblock2">
-						<span class="ah-fotbotblock2-span">Мы в</span>
-						<ul class="ah-soc">
-							<li>
-								<a href="#"><img src="img/ico-vk.png" alt="ico-vk"></a>
-							</li>
-							<li>
-								<a href="#"><img src="img/ico-insta.png" alt="ico-insta"></a>
-							</li>
-						</ul>
+					<a href="#" class="n-news-title">Не строго и по делу</a>
+					<p class="n-news-text">Светлана Абрамова знает, как выглядеть не только на 10 лет моложе, о чем рассказывает ...</p>
+	            </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12">
+				<div class="ah-newswrapp">
+					<div class="ah-news-imgbox">
+						<img src="img/ah-news2.jpg" class="img-responsive" alt="ah-news2">
+					</div>
+				</div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12">
+				<div class="ah-newswrapp">
+					<div class="ah-news-imgbox">
+						<img src="img/ah-news3.jpg" class="img-responsive" alt="ah-news3">
 					</div>
 				</div>
             </div>
         </div>
 	</div>
-</section>
-<div class="clearfix"></div>
-<section class="footer-bottom">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-				<div class="ah-fotleft">
-					<span class="ah-fotleft-span">2016 © ООО «Рикер Самара»</span>
-				</div>
-				<div class="ah-fotright">
-					<span class="ah-fotright-span">Сделано в WEBBEARS</span>
-				</div>
-			</div>
-        </div>
-    </div>
 </section>
 <div class="clearfix"></div>

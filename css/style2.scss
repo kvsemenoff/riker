@@ -4,7 +4,30 @@
 @import "style3.css";
 @import "style4.css";
 @import "fonts.css";
-
+//news************************************
+.n-news-span{
+	float: left;
+	font-family: MC-700;
+    font-size: 16px;
+}
+.n-news-link{
+	position: relative;
+	float: right;
+	border-bottom: 2px dotted #2f64ad;
+	// border-right: ; 
+    color: #2f64ad;
+    font-family: MSC-1;
+    font-size: 11px;
+}
+.n-news-link:before{
+	position: absolute;
+	content: "";
+	background: url(../img/menu_separat.png);
+	width: 2px;
+	height: 28px;
+	right: 0px;
+	top: 0px;
+}
 // footer*********************************
 .footer-bottom{
 	background-color: #434343; 
@@ -68,6 +91,7 @@
 	position: relative;
 	width: 100%;
 	font-size: 0px;
+	margin-top: 10px;
 	input[type="text"]{
 		background: #f9f9f9 url(../img/ico-search.png) no-repeat scroll 9px center;
 	    border: 1px solid #e5e5e3;
@@ -167,6 +191,9 @@
 }
 
 @media only screen and (min-width : 992px) {
+	ah-footform{
+		margin-top: 15px;
+	}
 	.ah-fotleft{
 		float: left;
 	}
