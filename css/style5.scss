@@ -1,23 +1,87 @@
-@import "reset.css";
-@import "style.css";
-@import "style2.css";
-@import "style3.css";
-@import "style4.css";
-@import "fonts.css";
+.clear{
+	clear: both;
+}
+
+.about-company{
+	background:#eef0f4;	
+	margin:70px 0 40px 0;
+	width: 100%;	
+	.zk-button-text{
+		margin-top: 5%;
+		height:20px;	
+		.button-link{		
+			background: url(..//img/button-aboutcompany.png)center left no-repeat;						
+			color:#0066b0;
+			padding-top: 5px;	
+			padding-left: 30px;
+			height: 22px;
+			display: inline-block;			
+			span{
+				border-bottom: 1px dashed #0066b0;	
+			}
+		}		
+	}		
+	.blk-left{
+		float: left;		
+		min-width: 360px;
+		width: 37%;
+		display: none;
+		visibility: hidden;	
+	}
+	.blk-right{	
+			float: left;		
+		    font-family: MSC-1;		   
+		    color:#71777a;
+		    font-size: 11px;
+		    padding:30px 20px 5% 20px; 
+		    width: 100%;		    
+		    h1{
+		    	color:#414143;
+		    	font-size: 19px;		    	
+		    	padding-bottom: 20px;
+		    	font-family: MC-300;
+		    	font-weight: bold;
+		    	letter-spacing: 1.4px;		    	
+		    }
+		      
+	}
+}
 
 @media only screen and (min-width : 320px) {
 }
 
 @media only screen and (min-width : 480px) {
+	 .about-company{
+	 	padding-left: 8%;
+	 }
 }
 
 @media only screen and (min-width : 768px) {
+	 .about-company{
+		padding-left: 5%;
+	 }
 }
 
 @media only screen and (min-width : 992px) {
+		.about-company{
+		padding-left: 2%;	
+		.blk-left{		
+			overflow: hidden;		
+			padding-right: 0px;
+			display: block;
+			visibility: visible;	
+		}
+		.blk-right{
+			width: 60%;
+			padding:30px 20px 0 40px; 
+		}	   
+	}
 }
 
 @media only screen and (min-width : 1248px) {
+	.blk-right{
+			width: 63%;
+		}	 
 }
 
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
