@@ -4,28 +4,82 @@
 @import "style3.css";
 @import "style4.css";
 @import "fonts.css";
+
 //news************************************
+.ah-newswrapp{
+	margin-bottom: 15px;
+}
+.n-news-text{
+	width: 100%;
+	display: block;
+    color: #9b9b9b;
+    font-family: MSC-1;
+    font-size: 10px;
+    line-height: 13px;
+    margin: 10px 0px;
+    text-align: left;
+}
+.n-news-title{
+	display: inline-block;
+	font-family: MC-500;
+    font-size: 13px;
+    text-align: left;
+    border-bottom: 2px dotted #2f64ad;
+    color: #2f64ad;
+    margin: 15px 0px;
+}
+.n-news{
+	box-shadow: 0 9px 24.3px 2.7px rgba(0, 0, 0, 0.07);
+	margin: 0 auto;
+	padding: 25px;
+}
 .n-news-span{
-	float: left;
+	display: block;
+	float: none;
 	font-family: MC-700;
     font-size: 16px;
+    margin-bottom: 20px;
+	text-align: center;
+	margin-top: 20px;
 }
 .n-news-link{
+	display: inline-block;
 	position: relative;
-	float: right;
+	float: none;
 	border-bottom: 2px dotted #2f64ad;
-	// border-right: ; 
+	border-right: 1px solid #e5e5e3;
     color: #2f64ad;
     font-family: MSC-1;
     font-size: 11px;
+    padding-right: 10px;
+    margin-right: 0px; 
+    margin-bottom: 15px;
 }
 .n-news-link:before{
 	position: absolute;
 	content: "";
-	background: url(../img/menu_separat.png);
-	width: 2px;
-	height: 28px;
-	right: 0px;
+	background: url(../img/ico-new.png);
+	width: 16px;
+	height: 16px;
+	right: -25px;
+	top: 0px;
+}
+.n-news-span1{
+	position: relative;
+	display: block;
+	color: #737678;
+    font-family: MSC-1;
+    font-size: 11px;
+    padding-left: 15px;
+    margin-bottom: 15px; 
+}
+.n-news-span1:before{
+	position: absolute;
+	content: "";
+	background: url(../img/ico-calendar.png);
+	width: 11px;
+	height: 12px;
+	left: 0px;
 	top: 0px;
 }
 // footer*********************************
@@ -195,7 +249,40 @@
 }
 
 @media only screen and (min-width : 992px) {
-	ah-footform{
+	.ah-newswrapp{
+		margin-bottom: 0px;
+	}
+	.n-news-text{
+		width: 250px;
+		display: block;
+	    margin: 10px 0px;
+	    text-align: left;
+	}
+	.n-news-span1{
+		position: relative;
+		display: block;
+		color: #737678;
+		width: none;
+	    padding-left: 20px;
+	    margin-bottom: 12px; 
+	}
+	.n-news-link{
+		position: relative;
+		float: right;
+		border-bottom: 2px dotted #2f64ad;
+		border-right: 1px solid #e5e5e3;
+	    padding-right: 10px;
+	    margin-right: 25px;
+	    margin-bottom: 0px; 
+	}
+	.n-news-span{
+		float: left;
+		font-family: MC-700;
+	    font-size: 16px;
+	    margin-bottom: 23px;
+	    margin-top: 0px;
+	}
+	.ah-footform{
 		margin-top: 15px;
 	}
 	.ah-fotleft{
@@ -246,7 +333,7 @@
 }
 
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-    //outline: 5px solid red;
+    // outline: 1px solid red;
 }
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
   
