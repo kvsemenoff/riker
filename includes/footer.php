@@ -42,7 +42,7 @@
             <div class="col-md-4 col-sm-4 col-xs-12 ah-inffot">
 				<div class="ah-logoblock">
 					<div class="ah-logoimg">
-						<img src="img/footer-logo.png" class="img-responsive" alt="footer-logo">
+						<a href="#"><img src="img/footer-logo.png" class="img-responsive" alt="footer-logo"></a>
 					</div>
 					<span class="ah-logoblock-span"><span>8 (800)</span> 707-01-81</span>
 				</div>
@@ -55,7 +55,7 @@
 					<div class="ah-fotbotblock1">
 						<span class="ah-fotbotblock1-span">Мы принимаем</span>
 						<div class="ah-cardimg">
-							<img src="img/ico-cards.png" alt="ico-cards.png">
+							<a href="#"><img src="img/ico-cards.png" alt="ico-cards.png"></a>
 						</div>
 					</div>
 					<div class="ah-fotbotblock2">
