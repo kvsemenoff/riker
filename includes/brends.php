@@ -7,17 +7,17 @@
 
 	<div class="col-md-4">
 		<div class="zk-brends">
-			<img src="/img/zk-brend.png" alt="">
+			<a href=""><img src="/img/zk-brend.png" alt=""></a>
 		</div>
 	</div>
 	<div class="col-md-4">
 		<div class="zk-brends">
-			<img src="/img/zk-brend2.png" alt="">
+			<a href=""><img src="/img/zk-brend2.png" alt=""></a>
 		</div>
 	</div>
 	<div class="col-md-4">
 		<div class="zk-brends">
-			<img src="/img/zk-brend3.png" alt="">
+			<a href=""><img src="/img/zk-brend3.png" alt=""></a>
 		</div>
 	</div>			
 </div>

@@ -1,12 +1,15 @@
 .clear {
   clear: both; }
 
-.about-company {
+.bg {
   background: #eef0f4;
-  margin: 70px 0 40px 0;
+  width: 100%;
+  margin: 70px 0 40px 0; }
+
+.about-company {
   width: 100%; }
   .about-company .zk-button-text {
-    margin-top: 5%;
+    margin-top: 4%;
     height: 20px; }
     .about-company .zk-button-text .button-link {
       background: url(..//img/button-aboutcompany.png) center left no-repeat;
@@ -18,6 +21,7 @@
       .about-company .zk-button-text .button-link span {
         border-bottom: 1px dashed #0066b0; }
   .about-company .blk-left {
+    max-height: 318px;
     float: left;
     min-width: 360px;
     width: 37%;
@@ -28,7 +32,7 @@
     font-family: MSC-1;
     color: #71777a;
     font-size: 12px;
-    padding: 30px 20px 5% 20px;
+    padding: 30px 20px 3% 20px;
     width: 100%; }
     .about-company .blk-right h1 {
       color: #414143;
@@ -54,7 +58,8 @@
     padding: 0 20px 15px 0; }
 
 .zk-brends {
-  margin-top: 65px; }
+  margin-top: 65px;
+  text-align: center; }
 
 @media only screen and (min-width: 480px) {
   .about-company {
@@ -72,7 +77,7 @@
       visibility: visible; }
     .about-company .blk-right {
       width: 60%;
-      padding: 30px 20px 0 25px; } }
+      padding: 30px 20px 3% 25px; } }
 @media only screen and (min-width: 1248px) {
   .blk-right {
     width: 63%; } }

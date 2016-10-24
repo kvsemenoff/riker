@@ -2,12 +2,18 @@
 	clear: both;
 }
 
-.about-company{
+
+.bg{
 	background:#eef0f4;	
-	margin:70px 0 40px 0;
+	width: 100%;
+	margin:70px 0 40px 0;	
+}
+.about-company{
+	
+	
 	width: 100%;	
 	.zk-button-text{
-		margin-top: 5%;
+		margin-top: 4%;
 		height:20px;	
 		.button-link{		
 			background: url(..//img/button-aboutcompany.png)center left no-repeat;						
@@ -22,19 +28,22 @@
 		}		
 	}		
 	.blk-left{
+		max-height: 318px;
 		float: left;		
 		min-width: 360px;
 		width: 37%;
 		display: none;
-		visibility: hidden;	
+		visibility: hidden;
+
+
 	}
 	.blk-right{	
 			float: left;		
 		    font-family: MSC-1;		   
 		    color:#71777a;
 		    font-size: 12px;
-		    padding:30px 20px 5% 20px; 
-		    width: 100%;		    
+		    padding:30px 20px 3% 20px; 
+		    width: 100%;
 		    h1{
 		    	color:#414143;
 		    	font-size: 19px;		    	
@@ -68,11 +77,11 @@
 		padding:0 20px 15px 0;	
 	}
 }
-
-
 .zk-brends{
 	margin-top:65px;
+	text-align: center;	
 }
+
 
 
 						
@@ -99,11 +108,13 @@
 			overflow: hidden;		
 			padding-right: 0px;
 			display: block;
-			visibility: visible;	
+			visibility: visible;
+
 		}
 		.blk-right{
 			width: 60%;
-			padding:30px 20px 0 25px; 
+			padding:30px 20px 3% 25px;
+			
 		}	   
 	}
 }
