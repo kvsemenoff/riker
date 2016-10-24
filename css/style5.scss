@@ -83,6 +83,96 @@
 }
 
 
+											//END BRENDS==
+
+											//INFORMATION======
+
+.zk-bg-info{
+	background-color: #F9F9F9;	
+}
+
+.zk-info-top-menu  {
+	.zk-first-img{
+		background: url(..//img/zk-home-info.png) no-repeat center left;
+		padding-left: 25px;
+		margin-left: 0px;
+	}
+	ul li{
+		float:left;		
+		margin-left: 15px;
+		margin-bottom: 25px;
+		margin-top: 10px;
+		a{
+			border-bottom: 3px dotted #2f64ad;
+			color: #2f64ad;
+    		font-family: MSC-1;
+    		font-size: 13px;
+		}		
+	}
+	ul li:last-child a{
+			color: #9b9b9b;
+			border-bottom:none;
+		}
+		ul li a:hover{
+			border-bottom: none;
+		}
+}
+
+
+
+.zk-content-info{
+	.zk-caption-info{
+		border-bottom: 1px solid silver;	   
+	    margin-bottom: 15px;	    
+	    font-family: MC-700;
+    	font-size: 16px;
+    	font-weight: bold;
+    	div{
+    		display: inline-block;
+    		border-bottom: 1px solid red;
+    		padding-top: 13px;
+    		padding-bottom: 12px;	 
+    	}	    
+	}	
+	.zk-newsContent{
+		background-color: #fff;
+	    border-radius: 8px;
+	    box-shadow: 0 2px 5px #eaeaea;
+	    margin-bottom: 15px;
+	    padding:17px;
+	    width: 100%;
+	    .zk-left{
+	    	width: 30%;
+	    	float: left;
+	    	margin-right: 21px;
+   			padding: 17px;
+	    }
+	    .zk-right{
+	    	float: none;
+	    	width: 100%;
+	    	font-family: MSC-1;
+	    	font-weight: bold;
+	    	font-size: 17px;
+	    	.news-date{
+	    		color: #737678;
+			    font-family: MSC-1;
+			    font-size: 13px;
+			    padding-left: 18px;
+			    background: url(..//img/ico-calendar.png) no-repeat scroll left center;
+	    	}
+	    }
+	}
+	.zk-back{
+		border-bottom: 3px dotted #2f64ad;
+		color: #2f64ad;
+		font-family: MSC-1;
+		font-size: 16px;
+		display: inline-block;
+	}
+	.zk-back:hover{
+		border-bottom: none;
+	}
+}
 
 						
 
