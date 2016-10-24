@@ -36,13 +36,15 @@
 	
 <section class="zk-bg-info">	
 <div class="container">
-	<div class="col-md-12">
-		<div class="zk-info-top-menu">
-	        <ul> 
-	            <li class="zk-first-img"><a href="/">Главная страница</a></li>        
-	        	<li> / &nbsp;&nbsp;<a href="/news/">Новости</a></li>
-				<li> / &nbsp;&nbsp;<a href="">Международная выставка одежды Salon De Fashion</a></li>
-	       	</ul>
+	<div class="row">
+		<div class="col-md-12">
+			<div class="zk-info-top-menu">
+		        <ul> 
+		            <li class="zk-first-img"><a href="/">Главная страница</a></li>        
+		        	<li> / &nbsp;&nbsp;<a href="/news/">Новости</a></li>
+					<li> / &nbsp;&nbsp;<a href="">Международная выставка одежды Salon De Fashion</a></li>
+		       	</ul>
+			</div>
 		</div>
 	</div>
 </div>

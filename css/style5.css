@@ -67,7 +67,7 @@
 .zk-info-top-menu .zk-first-img {
   background: url(..//img/zk-home-info.png) no-repeat center left;
   padding-left: 25px;
-  margin-left: 0px; }
+  margin-left: 17px; }
 .zk-info-top-menu ul li {
   float: left;
   margin-left: 15px;
@@ -112,7 +112,8 @@
     width: 100%;
     font-family: MSC-1;
     font-weight: bold;
-    font-size: 17px; }
+    font-size: 17px;
+    color: #5a6164; }
     .zk-content-info .zk-newsContent .zk-right .news-date {
       color: #737678;
       font-family: MSC-1;
@@ -124,7 +125,8 @@
   color: #2f64ad;
   font-family: MSC-1;
   font-size: 16px;
-  display: inline-block; }
+  display: inline-block;
+  height: 25px; }
 .zk-content-info .zk-back:hover {
   border-bottom: none; }
 
