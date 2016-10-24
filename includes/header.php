@@ -44,7 +44,7 @@
 					<li><a href="#">Мужская обувь</a></li>
 					<li><a href="#">Детская обувь</a></li>
 					<li><a href="#">Сумки</a></li>
-					<li><a href="#">Бренды</a>
+					<li class="ab-s"><a href="#">Бренды</a>
 						<ul class="ab-next-menu">
 							<li class="Reiker">Reiker</li>
 							<li><a href="#">- Мужская обувь</a></li>

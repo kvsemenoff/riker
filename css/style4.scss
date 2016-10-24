@@ -109,6 +109,7 @@
 
 .tpl-menuTop {
 	margin-top:9px;
+	margin-bottom:20px;
     border-bottom: 1px solid #e5e5e3;
     border-top: 1px solid #e5e5e3;
     box-shadow: 0 2px 5px #eaeaea;
@@ -211,6 +212,117 @@
 
 /*============= Конец Меню =============*/
 
+/*============== Сайдбар ==============*/
+
+.blk-menu{
+	padding-right: 20px;
+    width: 215px;
+    ul{
+    	border: 1px solid #e5e5e3;
+	    border-radius: 4px;
+	    box-sizing: padding-box;
+	    list-style: outside none none;
+	    padding: 0;
+	    li{
+	    	position:relative;
+	    	border-top: 1px solid #e5e5e3;
+	    	transition: background-color 0.5s ease 0s, color 0.5s ease 0s;
+	    	a{
+	    		color: #737678;
+			    display: block;
+			    font-family: MSC-2;
+			    font-size: 11px;
+			    line-height: 10px;
+			    padding: 10px 15px;
+			    
+	    	}
+	    }
+	    .ab-after:after{
+			position:absolute;
+			content:"";
+			background:url("/img/ab-sn2.png") no-repeat right center;
+			width: 4px;
+			height: 7px;
+			right: 25px;
+		    top: 11px;
+	    }
+	    .ab-after:hover:after{
+			position:absolute;
+			content:"";
+			background:url("/img/ab-sn.png") no-repeat right center;
+			width: 4px;
+			height: 7px;
+			right: 25px;
+		    top: 11px;
+	    }
+	    li:hover{
+	    	background:#E50135;
+
+	    	a{
+	    		color:#fff;
+	    	}
+	    }
+	    .ab-l{
+	    	height: 20px;
+	    }
+	    .ab-l:hover{
+			background:none;
+	    }
+	    .h{
+	    	background-color: #cbd3d8;
+		    color: #fff;
+		    font-family: MSC-2;
+		    font-size: 11px;
+		    padding: 13px;
+		    border-top:none;
+
+	    }
+	    .h:after{
+	    	position:absolute;
+	    	content: "";
+	    	background:url("/img/ico-woman.png") no-repeat right center;
+			width: 16px;
+			height: 16px;
+			right: 25px;
+		    top: 11px;
+	    }
+	    .h:hover{
+	    	background:#CBD3D8;
+	    }
+	    
+    }
+}
+.blk-menu2{
+	margin-top:-10px;
+	  .h2{
+	    	background-color: #cbd3d8;
+		    color: #fff;
+		    font-family: MSC-2;
+		    font-size: 11px;
+		    padding: 13px;
+		    border-top:none;
+
+	    }
+	    .h2:after{
+	    	position:absolute;
+	    	content: "";
+	    	background:url("/img/ico-men.png") no-repeat right center;
+			width: 16px;
+			height: 16px;
+			right: 25px;
+		    top: 11px;
+	    }
+	    .h2:hover{
+	    	background:#CBD3D8;
+	    }
+}
+
+
+
+
+
+
+/*========== Конец Сайдбара ==========*/
 
 
 @media only screen and (min-width : 320px) {
@@ -274,8 +386,29 @@
 						padding-top:15px;
 				    }
 	    		}
-	    			.ab-proc{
-    			position:relative;
+	    		.ab-s{
+					position:relative;
+	    		}
+	    		.ab-s:after{
+	    			position:absolute;
+	    			content: "";
+					background:url("/img/ab-r.png") no-repeat;
+					width: 8px;
+					height: 4px;
+					right: 36px;
+				    top: 25px;
+	    		}
+	    		.ab-s:hover:after{
+	    			position:absolute;
+	    			content: "";
+					background:url("/img/ab-r2.png") no-repeat;
+					width: 8px;
+					height: 4px;
+					right: 36px;
+				    top: 25px;
+	    		}
+    			.ab-proc{
+	    			position:relative;
 				
     		}
     		.ab-proc:after{
@@ -298,6 +431,8 @@
 					padding-left:22px;
 					padding-right:73px;
 					border-radius:5px;
+					//outline: 1px solid red;
+					z-index: 9999;
 			    	li{
 						display: block;
 						border-right:none;
