@@ -216,7 +216,7 @@
 
 .blk-menu{
 	padding-right: 20px;
-    width: 215px;
+    width: 100%;
     ul{
     	border: 1px solid #e5e5e3;
 	    border-radius: 4px;
@@ -317,18 +317,92 @@
 	    }
 }
 
-
-
-
-
-
 /*========== Конец Сайдбара ==========*/
+
+/*============= Слайдер ==============*/
+
+.ab-slider{
+	.slidetextbox{
+    width: 82%;
+    margin-left: 10px !important;
+    margin-top: 0px;
+    text-align: center;
+	    a{
+	    	border: 2px solid #e90014;
+		    border-radius: 4px;
+		    color: #fff;
+		    display: inline-block;
+		    font-family: MSC-1;
+		    font-size: 14px;
+		    left: 135px;
+		    padding: 4px;
+		    position: absolute;
+		    text-align: center;
+		    top: 41px;
+		    transition: background-color 0.5s ease 0s;
+		    width: 109px;
+	    }
+	    a:hover{
+	    	background:#e90014;
+	    }
+	}
+	.ah-sbox1{
+	    position: relative;
+	    width: 100%;
+	}
+	.item{
+	    
+	    background-size: cover;
+	    //height: 376px;
+	}
+
+	.slidetext{
+	    display: none;
+	    font-family: "Lato-Light";
+	    color: #fff;
+	    font-size: 18px;
+	    line-height: 22px;
+	}
+	.owl-dots{
+	    display: block;
+	    position: absolute;
+	    left: 37%;
+	    bottom: 9%;
+	}
+	.owl-dot{
+	    display: inline-block;
+	    margin-left: 9px;
+	    width: 12px; 
+	    height: 12px;
+	    border: 2px solid #fff;
+	    background: none;
+	    border-radius: 10px;
+	}
+	.owl-dot.active{
+	    width: 12px; 
+	    height: 12px;
+	    background: #fff;
+	    border-radius: 10px; 
+	}
+}
+
+
+/*========= Конец Слайдера ==========*/
 
 
 @media only screen and (min-width : 320px) {
 }
 
 @media only screen and (min-width : 480px) {
+	.ab-slider{
+		.slidetextbox{
+		    a{
+			    left: 57px;
+			    top: 149px;
+			    width: 109px;
+		    }
+		}    
+	}	    
 }
 
 @media only screen and (min-width : 768px) {
@@ -337,6 +411,60 @@
 
 @media only screen and (min-width : 992px) {
 
+	.ab-slider{
+	    .ah-arrowleft{
+	        display: block;
+	        position: absolute;
+	        width: 44px; 
+	        height: 44px;
+	        left: 2%;
+	        top: 43%;
+	        background: url(../img/ah-arrowleft.png) center center no-repeat !important;
+	    }
+	    .ah-arrowright{
+	        display: block;
+	        position: absolute;
+	        width: 44px; 
+	        height: 44px;
+	        right: 2%;
+	        top: 43%;
+	        background: url(../img/ah-arrowright.png) center center no-repeat;
+	    }
+	    .owl-dots{
+	        left: 44%;
+	        bottom: 12%;
+	    }
+	    .slidetext{
+	        display: block;
+	    }
+	    .ah-slink{
+	        margin-top: 10px;
+	    }
+	    .slidetextbox, .slideimgbox{
+	        float: left;
+	    }
+	    .slidetextbox{
+	        width: 69%;
+	        margin-left: 56px;
+	        margin-top: 23px;
+	        a{
+	    	display: inline-block;
+	    	border: 2px solid #e90014;
+		    border-radius: 4px;
+		    //bottom: 84px;
+		    color: #fff;
+		    font-family: MC-500;
+		    font-weight: bold;
+		    font-size: 14px;
+		    left: 94px;
+		    padding: 12px;
+		    position: absolute;
+		    text-align: center;
+		    transition: background-color 0.5s ease 0s;
+		    width: 160px;
+	    }
+	    }
+	}
 	.ab-header{
 		.ab-header-logo{	
 			float: left;
