@@ -1,7 +1,7 @@
 <section class="ab-sidebar-wrap">
     <div class="container">
     	<div class="row">	
-			<div class="col-md-4">
+			<div class="col-md-3">
 				<div class="blk-menu">
 					<ul>
 						<li class="h">Женская обувь</li>
