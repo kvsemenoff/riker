@@ -61,6 +61,24 @@
   margin-top: 65px;
   text-align: center; }
 
+.zk-info-top-menu ul li {
+  float: left;
+  height: 35px;
+  margin-left: 15px; }
+  .zk-info-top-menu ul li a {
+    border-bottom: 2px dotted #2f64ad;
+    color: #2f64ad;
+    font-family: MSC-1;
+    font-size: 12px; }
+.zk-info-top-menu ul li:last-child a {
+  color: #9b9b9b;
+  border-bottom: none; }
+.zk-info-top-menu ul li a:hover {
+  border-bottom: none; }
+
+.zk-content-info {
+  float: left; }
+
 @media only screen and (min-width: 480px) {
   .about-company {
     padding-left: 8%; } }

@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Главная</title>
+	<title>Информация</title>
 
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">
@@ -33,11 +33,56 @@
 	<script src="js/common.js"></script>
 
 	<?php require_once('includes/header.php'); ?>
-	<?php require_once('includes/sidebar.php'); ?>
 	
-	<?php require_once('includes/footer.php'); ?>
+	
+<div class="container">
+	<div class="col-md-12">
+		<div class="zk-info-top-menu">
+	        <ul> 
+	            <li class="zk-first-img"><a href="/">Главаная страница</a></li>        
+	        	<li> / &nbsp;&nbsp;<a href="/news/">Новости</a></li>
+				<li> / &nbsp;&nbsp;<a href="">Международная выставка одежды Salon De Fashion</a></li>
+	       	</ul>
+		</div>
+	</div>
+</div>
+<div class="clearfix"></div>
+
+
+
+<div class="container">
+	<div class="row">	
+	<div class="col-md-3"> <?php require_once('includes/sidebar.php'); ?></div>
+		<div class="col-md-9">
+			<div class="zk-content-info">
+				<div class="zk-caption-info">
+						<div>Международная выставка одежды Salon De Fashion<hr></div>
+				</div>					
+				<div class="zk-newsContent">
+					<div class="blk-left">
+						<img class="detail_picture" border="0" src="" width="262" height="auto" alt="" title="">
+					</div>
+					<div class="blk-right">
+						<div class="news-date">01.07.2016</div>
+						<div class="desc">
+							<div>
+							В&nbsp;следующем&nbsp;&nbsp;году выставка&nbsp;Salon De Fashion&nbsp;обещает быть еще более расширенной и интересной. На выставке&nbsp;Salon De Fashion&nbsp;будут представлены все типы одежды для офиса и дома от платьев и шорт до VIP-аксессуаров, включая оборудование для производства и детской одежды.&nbsp;
+							</div>
+							<br>
+							<div>Заявки на участие подали более чем 1 500 компаний со всего мира. Предполагается, что за время проведения выставки ее посетят более 300 000 тысяч человек. Экспозиция выставки разместится на общей площади 149 871 кв.м. В&nbsp;следующем&nbsp;году эта поистине грандиозная выставка будет проводиться уже в 14-й раз.
+							</div>	
+						</div>			
+					</div>
+					<div class="clear"></div>
+				</div>
+				<p><a href="/news/">Возврат к списку</a></p>
+			</div>
+		</div>	
+	</div>
+</div>
 
 	
+	<?php require_once('includes/footer.php'); ?>
 </body>
 </html>
 

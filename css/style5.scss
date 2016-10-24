@@ -84,6 +84,34 @@
 
 
 
+
+
+
+
+.zk-info-top-menu  {
+	ul li{
+		float:left;
+		height:35px;
+		margin-left: 15px;
+		a{
+			border-bottom: 2px dotted #2f64ad;
+			color: #2f64ad;
+    		font-family: MSC-1;
+    		font-size: 12px;
+		}		
+	}
+	ul li:last-child a{
+			color: #9b9b9b;
+			border-bottom:none;
+		}
+		ul li a:hover{
+			border-bottom: none;
+		}
+}
+.zk-content-info{
+	float: left;	
+}
+
 						
 
 @media only screen and (min-width : 320px) {
