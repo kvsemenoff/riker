@@ -34,6 +34,7 @@
 
 	<?php require_once('includes/header.php'); ?>
 	<?php require_once('includes/sidebar.php'); ?>
+	<?php require_once('includes/slider.php'); ?>
 	<?php require_once('includes/n-news.php'); ?>
 	<?php require_once('includes/brends.php'); ?>
 	<?php require_once('includes/aboutcompany.php'); ?>
