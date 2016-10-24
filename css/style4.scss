@@ -109,7 +109,7 @@
 
 .tpl-menuTop {
 	margin-top:9px;
-	margin-bottom:20px;
+	//margin-bottom:20px;
     border-bottom: 1px solid #e5e5e3;
     border-top: 1px solid #e5e5e3;
     box-shadow: 0 2px 5px #eaeaea;
@@ -322,6 +322,7 @@
 /*============= Слайдер ==============*/
 
 .ab-slider{
+	margin-top:20px;
 	.slidetextbox{
     width: 82%;
     margin-left: 10px !important;

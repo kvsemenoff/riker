@@ -34,9 +34,35 @@
 
 	<?php require_once('includes/header.php'); ?>
 	
-	
-	<?php require_once('includes/footer.php'); ?>
+<section class="zk-bg-info">	
+	<div class="container">
+		<div class="row">	
+			<div class="col-md-12">
+				<div class="zk-info-top-menu">
+			        <ul> 
+			            <li class="zk-first-img"><a href="/">Главная страница</a></li>        
+			        	<li> / &nbsp;&nbsp;<a href="/news/">Новости</a></li>
+						<li> / &nbsp;&nbsp;<a href="">Международная выставка одежды Salon De Fashion</a></li>
+			       	</ul>
+				</div>
+			</div>
+		</div>	
+	</div>
+	<div class="clearfix"></div>
+</section>
 
+<section class="news">	
+	<div class="container">
+		<div class="row">
+			<?php require_once('includes/sidebar.php'); ?>
+			<div class="col-md-9">
+
+			</div>
+		</div>
+	</div>
+</section>
+
+<?php require_once('includes/footer.php'); ?>
 	
 </body>
 </html>
