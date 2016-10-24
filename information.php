@@ -62,7 +62,7 @@
 				</div>					
 				<div class="zk-newsContent">
 					<div class="zk-left">
-						<img class="detail_picture" alt="">
+						<img class="detail_picture"  src="img/footer-logo.png" alt=""> 
 					</div>
 					<div class="zk-right">
 						<div class="news-date">01.07.2016</div>

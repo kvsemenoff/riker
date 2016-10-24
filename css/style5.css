@@ -62,7 +62,8 @@
   text-align: center; }
 
 .zk-bg-info {
-  background-color: #F9F9F9; }
+  background-color: #F9F9F9;
+  margin: 0 auto; }
 
 .zk-info-top-menu .zk-first-img {
   background: url(..//img/zk-home-info.png) no-repeat center left;
@@ -105,8 +106,11 @@
   .zk-content-info .zk-newsContent .zk-left {
     width: 30%;
     float: left;
-    margin-right: 21px;
-    padding: 17px; }
+    padding: 17px 17px 10px 0px;
+    text-align: center;
+    height: 10%;
+    margin-right: 15px;
+    overflow: hidden; }
   .zk-content-info .zk-newsContent .zk-right {
     float: none;
     width: 100%;
