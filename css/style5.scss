@@ -232,6 +232,10 @@
     			margin: 3px 5px;
     			padding: 0px 10px;
     			font-family: MC-700;
+    			img{
+    				width: 8px;
+    				height: 6px;
+    			}
 		    }
 		    .zk-price{
 		    	border-top: 1px solid #e5e5e3;		    	
@@ -245,7 +249,7 @@
 		    }
     	}
     	.zk-bg-product:hover{
-    		border-radius: 6px 6px 0px 0px;
+    		border-radius: 6px 6px 0px 0px;  				//<<<<<<ON=THE=HOVER=TO=ZK-SHOW-MENU
     	}
     	.zk-show-menu{
     		display: none;
