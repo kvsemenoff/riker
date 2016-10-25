@@ -87,7 +87,7 @@
 						<div class="zk-bg-product">
 							<a href="#" class="zk-name-product">
 								<div class="zk-img">
-									<img src="/img/zk-product.jpg" alt="" class="img-responsive">									
+									<img src="/img/zk-product2.jpg" alt="" class="img-responsive">									
 								</div>
 								<span class="zk-title">
 									<b>Туфли Rieker артикул 11306-14</b>
@@ -112,7 +112,7 @@
 						<div class="zk-bg-product">
 							<a href="#" class="zk-name-product">
 								<div class="zk-img">
-									<img src="/img/zk-product.jpg" alt="" class="img-responsive">									
+									<img src="/img/zk-product3.jpg" alt="" class="img-responsive">									
 								</div>
 								<span class="zk-title">
 									<b>Туфли Rieker артикул 11306-14</b>

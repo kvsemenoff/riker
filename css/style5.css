@@ -147,7 +147,8 @@
     background: #fff;
     border-radius: 6px;
     box-shadow: 0 2px 5px #dcdcdc;
-    width: 150px; }
+    width: 150px;
+    overflow: hidden; }
     .zk-category .zk-product .zk-bg-product .zk-name-product {
       display: block;
       padding: 9px; }
@@ -161,11 +162,11 @@
         font-family: MSC-1;
         font-size: 14px;
         margin: 10px 5px;
-        height: 36px;
+        max-height: 35px;
         overflow: hidden;
         border-bottom: 2.5px dotted #698BBA; }
       .zk-category .zk-product .zk-bg-product .zk-name-product .zk-title:hover {
-        border-bottom: none; }
+        border: none; }
     .zk-category .zk-product .zk-bg-product .zk-status-product {
       font-size: 13px;
       margin: 3px 5px;
@@ -182,7 +183,7 @@
       padding: 12px 10px;
       font-size: 18px;
       font-weight: bold;
-      height: 80px; }
+      height: 60px; }
   .zk-category .zk-product .zk-bg-product:hover {
     border-radius: 6px 6px 0px 0px; }
   .zk-category .zk-product .zk-show-menu {

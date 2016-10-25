@@ -38,7 +38,7 @@ $(document).ready(function(){
                                 //====slidemenu===category.php=======
 
     $('.zk-category').hover(function(){
-        $('.zk-show-menu', this).slideDown(500);    
+        $('.zk-show-menu', this).slideDown(450);    
     },function(){
         $('.zk-show-menu', this).slideUp(400);             
     });
