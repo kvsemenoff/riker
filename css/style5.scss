@@ -104,7 +104,7 @@
 		margin-bottom: 25px;
 		margin-top: 10px;		
 		a{
-			border-bottom: 3px dotted #2f64ad;
+			border-bottom: 2.7px dotted #2f64ad;
 			color: #2f64ad;
     		font-family: MSC-1;
     		font-size: 13px;
@@ -186,33 +186,42 @@
 
 									//=========CATEGORY=======
 
+
+
+#zk-category-last-child{
+	margin-right: 0px;
+}
 .zk-category{
 	display: inline-block;
     float: left;
+    margin-right: 14px;
+    margin-top: 15px;
+    position: relative;    
     .zk-product{
     	.zk-bg-product{
     		background: #fff;
 		    border-radius: 6px;
-		    box-shadow: 0 2px 2px #dcdcdc;
-		   
-		    width: 170px; 
+		    box-shadow: 0 2px 5px #dcdcdc;		   
+		    width: 150px; 
 		    .zk-name-product{
-		    	display: inline-block;
+		    	display: block;
 		    	padding: 9px;
 		    	
-		    	.zk-img img{
+		    	.zk-img {
 		    		text-align: center;		    		
 		    		height: 120px;
 		    		width: 150px;
+		    		padding: 15px 20px 0 10px;
+		    		
 		    	}
 		    	.zk-title{
-	    		    color: #2f64ad;
+	    		    color: #5D84BA;
 				    font-family: MSC-1;
 				    font-size: 14px;
 				    margin: 10px 5px;
 				    height: 36px;
 				    overflow: hidden;
-				    border-bottom: 3px dotted #2f64ad;
+				    border-bottom: 2.5px dotted #698BBA;
 		    	}
 		    	.zk-title:hover{
 		    		border-bottom: none;
@@ -222,18 +231,30 @@
 		    	font-size: 13px;
     			margin: 3px 5px;
     			padding: 0px 10px;
+    			font-family: MC-700;
 		    }
 		    .zk-price{
 		    	border-top: 1px solid #e5e5e3;		    	
 			    color: #434343;			    
 			    font-family: MC-700;
-			    margin-top: 10px;
-			    padding: 12px 10px ;
+			    margin-top: 10px;			    
+			    padding: 12px 10px;
+			    font-size: 18px;
+			    font-weight: bold;
+			    height:80px;
 		    }
+    	}
+    	.zk-bg-product:hover{
+    		border-radius: 6px 6px 0px 0px;
     	}
     	.zk-show-menu{
     		display: none;
-    	
+    		position: absolute;
+    		z-index: 9999;
+    		background: #fff;
+		    border-radius: 0px 0 6px 6px;
+		    box-shadow: 0 2px 5px #dcdcdc;
+		    width: 150px;	    		    	
     		.zk-read-more{
     			background: #c40237;
 			    border: 3px solid #c40237;
@@ -242,14 +263,14 @@
 			    display: inline-block;
 			    font-family: MSC-2;
 			    font-size: 11px;
-			    margin: 10px 30px 10px 10px;
+			    margin: 10px 22px 10px 10px;
 			    padding: 7px 10px;
 			    text-align: center;
 			    transition: background-color 0.5s ease 0s, color 0.5s ease 0s, border 0.5s ease 0s;
     		}
     		.zk-read-more:hover{
 				background: none;
-				color: #c40237;
+				color: #c40237;				
     		}
     		.zk-basket{
     			text-align: center;
