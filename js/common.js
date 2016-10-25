@@ -34,6 +34,16 @@ $(document).ready(function(){
         $(this).toggleClass('az-select-focus');
     });
 
+
+                                //====slidemenu===category.php=======
+
+    $('.zk-category').hover(function(){
+        $('.zk-show-menu', this).slideDown(500);    
+    },function(){
+        $('.zk-show-menu', this).slideUp(400);             
+    });
+
+
  });
 
 
