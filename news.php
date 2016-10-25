@@ -58,6 +58,13 @@
 			<?php require_once('includes/sidebar.php'); ?>
 			</div>
 			<div class="col-md-9">
+				<div class="head">
+					<div>
+						Новости
+						<hr>
+					</div>
+					<a href="#"><img src="img/rss.png" alt=""></a>
+				</div>
 				<div class="ab-news">
 					<div class="ab-news-left">
 						<a href="#"><img src="img/ab-j.png" alt=""></a>
@@ -65,7 +72,7 @@
 					<div class="ab-news-right">
 						<div class="news-date">01.07.2016</div>
 						<div class="ab-news-main">
-							<span>Международная выставка одежды Salon De Fashion</span>
+							<a href="#">Международная выставка одежды Salon De Fashion</a>
 							<span>В следующем  году выставка Salon De Fashion обещает быть еще более расширенной и интересной. На выставке Salon De Fashion будут представлены все типы одежды для офиса и дома от платьев и шорт до VIP-аксессуаров, включая оборудование для производства и детской одежды.
 							В следующем  году выставка Salon De Fashion обещает быть еще более расширенной и интересной. 
 							</span>
@@ -80,7 +87,7 @@
 					<div class="ab-news-right">
 						<div class="news-date">01.07.2016</div>
 						<div class="ab-news-main">
-							<span>Международная выставка одежды Salon De Fashion</span>
+							<a href="#">Международная выставка одежды Salon De Fashion</a>
 							<span>В следующем  году выставка Salon De Fashion обещает быть еще более расширенной и интересной. На выставке Salon De Fashion будут представлены все типы одежды для офиса и дома от платьев и шорт до VIP-аксессуаров, включая оборудование для производства и детской одежды.
 							В следующем  году выставка Salon De Fashion обещает быть еще более расширенной и интересной. 
 							</span>
@@ -95,7 +102,7 @@
 					<div class="ab-news-right">
 						<div class="news-date">01.07.2016</div>
 						<div class="ab-news-main">
-							<span>Международная выставка одежды Salon De Fashion</span>
+							<a href="#">Международная выставка одежды Salon De Fashion</a>
 							<span>В следующем  году выставка Salon De Fashion обещает быть еще более расширенной и интересной. На выставке Salon De Fashion будут представлены все типы одежды для офиса и дома от платьев и шорт до VIP-аксессуаров, включая оборудование для производства и детской одежды.
 							В следующем  году выставка Salon De Fashion обещает быть еще более расширенной и интересной. 
 							</span>
@@ -110,7 +117,7 @@
 					<div class="ab-news-right">
 						<div class="news-date">01.07.2016</div>
 						<div class="ab-news-main">
-							<span>Международная выставка одежды Salon De Fashion</span>
+							<a href="#">Международная выставка одежды Salon De Fashion</a>
 							<span>В следующем  году выставка Salon De Fashion обещает быть еще более расширенной и интересной. На выставке Salon De Fashion будут представлены все типы одежды для офиса и дома от платьев и шорт до VIP-аксессуаров, включая оборудование для производства и детской одежды.
 							В следующем  году выставка Salon De Fashion обещает быть еще более расширенной и интересной. 
 							</span>
