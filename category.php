@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Информация</title>
+	<title>Rieker</title>
 
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">
@@ -34,7 +34,7 @@
 
 	<?php require_once('includes/header.php'); ?>
 	
-<section class="zk-bg-info">	
+<section>	
 <div class="container">
 	<div class="row">
 		<div class="col-md-12">
@@ -56,15 +56,36 @@
 	<div class="row">	
 		<div class="col-md-3"><?php require_once('includes/sidebar.php'); ?></div>
 		<div class="col-md-9">
-			
-
-
-
+			<div class="zk-category">
+				<ul>
+					<li class="zk-product">
+						<div class="zk-bg-product">
+							<a href="#" class="zk-name-product">
+								<div class="zk-img">
+									<img src="/img/zk-product.jpg" alt="">									
+								</div>
+								<span class="zk-title">
+									<b>Туфли Rieker артикул 11306-14</b>
+								</span>
+							</a>
+							<div class="zk-status-product">
+								<img src="/img/ico-check.png">
+								в наличии
+							</div>
+							<p class="zk-price">2 980 руб.</p>
+							<div class="zk-show-menu">
+								<a href="#" class="zk-read-more">Подробнее</a>
+								<a href="#" class="zk-basket"></a>								
+							</div>
+						</div>
+					</li>					
+				</ul>			
+			</div>
 		</div>
 	</div>
 </div>
 </section>
-	
+		
 	<?php require_once('includes/footer.php'); ?>
 </body>
 </html>
