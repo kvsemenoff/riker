@@ -62,7 +62,132 @@
 						<div class="zk-bg-product">
 							<a href="#" class="zk-name-product">
 								<div class="zk-img">
-									<img src="/img/zk-product.jpg" alt="">									
+									<img src="/img/zk-product.jpg" alt="" class="img-responsive">									
+								</div>
+								<span class="zk-title">
+									<b>Туфли Rieker артикул 11306-14</b>
+								</span>
+							</a>
+							<div class="zk-status-product">
+								<img src="/img/ico-check.png">
+								в наличии
+							</div>
+							<p class="zk-price">2 980 руб.</p>
+							<div class="zk-show-menu">
+								<a href="#" class="zk-read-more">Подробнее</a>
+								<a href="#" class="zk-basket"></a>								
+							</div>
+						</div>
+					</li>					
+				</ul>			
+			</div>
+			<div class="zk-category">
+				<ul>
+					<li class="zk-product">
+						<div class="zk-bg-product">
+							<a href="#" class="zk-name-product">
+								<div class="zk-img">
+									<img src="/img/zk-product.jpg" alt="" class="img-responsive">									
+								</div>
+								<span class="zk-title">
+									<b>Туфли Rieker артикул 11306-14</b>
+								</span>
+							</a>
+							<div class="zk-status-product">
+								<img src="/img/ico-check.png">
+								в наличии
+							</div>
+							<p class="zk-price">2 980 руб.</p>
+							<div class="zk-show-menu">
+								<a href="#" class="zk-read-more">Подробнее</a>
+								<a href="#" class="zk-basket"></a>								
+							</div>
+						</div>
+					</li>					
+				</ul>			
+			</div>
+			<div class="zk-category">
+				<ul>
+					<li class="zk-product">
+						<div class="zk-bg-product">
+							<a href="#" class="zk-name-product">
+								<div class="zk-img">
+									<img src="/img/zk-product.jpg" alt="" class="img-responsive">									
+								</div>
+								<span class="zk-title">
+									<b>Туфли Rieker артикул 11306-14</b>
+								</span>
+							</a>
+							<div class="zk-status-product">
+								<img src="/img/ico-check.png">
+								в наличии
+							</div>
+							<p class="zk-price">2 980 руб.</p>
+							<div class="zk-show-menu">
+								<a href="#" class="zk-read-more">Подробнее</a>
+								<a href="#" class="zk-basket"></a>								
+							</div>
+						</div>
+					</li>					
+				</ul>			
+			</div>
+			<div class="zk-category">
+				<ul>
+					<li class="zk-product">
+						<div class="zk-bg-product">
+							<a href="#" class="zk-name-product">
+								<div class="zk-img">
+									<img src="/img/zk-product.jpg" alt="" class="img-responsive">									
+								</div>
+								<span class="zk-title">
+									<b>Туфли Rieker артикул 11306-14</b>
+								</span>
+							</a>
+							<div class="zk-status-product">
+								<img src="/img/ico-check.png">
+								в наличии
+							</div>
+							<p class="zk-price">2 980 руб.</p>
+							<div class="zk-show-menu">
+								<a href="#" class="zk-read-more">Подробнее</a>
+								<a href="#" class="zk-basket"></a>								
+							</div>
+						</div>
+					</li>					
+				</ul>			
+			</div>
+			<div class="zk-category" id="zk-category-last-child">
+				<ul>
+					<li class="zk-product" >
+						<div class="zk-bg-product">
+							<a href="#" class="zk-name-product">
+								<div class="zk-img">
+									<img src="/img/zk-product.jpg" alt="" class="img-responsive">									
+								</div>
+								<span class="zk-title">
+									<b>Туфли Rieker артикул 11306-14</b>
+								</span>
+							</a>
+							<div class="zk-status-product">
+								<img src="/img/ico-check.png">
+								в наличии
+							</div>
+							<p class="zk-price">2 980 руб.</p>
+							<div class="zk-show-menu">
+								<a href="#" class="zk-read-more">Подробнее</a>
+								<a href="#" class="zk-basket"></a>								
+							</div>
+						</div>
+					</li>					
+				</ul>			
+			</div>
+			<div class="zk-category">
+				<ul>
+					<li class="zk-product">
+						<div class="zk-bg-product">
+							<a href="#" class="zk-name-product">
+								<div class="zk-img">
+									<img src="/img/zk-product.jpg" alt="" class="img-responsive">									
 								</div>
 								<span class="zk-title">
 									<b>Туфли Rieker артикул 11306-14</b>
