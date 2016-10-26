@@ -38,10 +38,19 @@ $(document).ready(function(){
     //====slidemenu===category.php=======
 
 
+<<<<<<< HEAD
     // $('.item').hover(function(){
     //      $('.zk-show-menu', this).slideDown(500);
     $('.zk-category').hover(function(){
         $('.zk-show-menu', this).slideDown(450);
+=======
+    $('.zk-category').hover(function(){
+        $('.zk-show-menu', this).slideDown(500);    
+
+    $('.zk-category').hover(function(){
+        $('.zk-show-menu', this).slideDown(450);    
+
+>>>>>>> 7393d275559ac39150e787502483f64e77fe6b8f
     },function(){
         $('.zk-show-menu', this).slideUp(400);             
     });
