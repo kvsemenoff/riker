@@ -1,10 +1,4 @@
-@import "reset.css";
-@import "style.css";
-@import "style2.css";
-@import "style3.css";
-@import "style5.css";
-@import "style6.css";
-@import "fonts.css";
+
 
 
 .ab-header{
@@ -559,6 +553,7 @@
 /*============== Новинки Карусель ===============*/
 .ab-novinki-wrap{
 	padding-top:20px;
+	//margin-bottom:20px;
 	background:#EDEFF2;
 	.head {
 	    border-bottom: 1px solid #dfe4e8;
@@ -566,8 +561,8 @@
 	    font-size: 16px;
 	    margin-bottom: 15px;
 	    position: relative;
-	    margin-left: 10px;
-	    margin-right: 10px;
+	   margin-left: 10px;
+	   margin-right: 10px;
 
 	    div {
 		    box-sizing: padding-box;
