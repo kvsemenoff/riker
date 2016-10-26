@@ -56,155 +56,259 @@
 	<div class="row">	
 		<div class="col-md-3"><?php require_once('includes/sidebar.php'); ?></div>
 		<div class="col-md-9">
-			<div class="zk-category">
-				<ul>
-					<li class="zk-product">
-						<div class="zk-bg-product">
-							<a href="#" class="zk-name-product">
-								<div class="zk-img">
-									<img src="/img/zk-product.jpg" alt="" class="img-responsive">									
+			<div class="zk-category-5box">
+				<div class="zk-category">
+					<ul>
+						<li class="zk-product">
+							<div class="zk-bg-product">
+								<a href="#" class="zk-name-product">
+									<div class="zk-img">
+										<img src="/img/zk-product.jpg" alt="" class="img-responsive">									
+									</div>
+									<span class="zk-title">
+										<b>Туфли Rieker артикул 11306-14</b>
+									</span>
+								</a>
+								<div class="zk-status-product">
+									<img src="/img/ico-check.png">
+									в наличии
 								</div>
-								<span class="zk-title">
-									<b>Туфли Rieker артикул 11306-14</b>
-								</span>
-							</a>
-							<div class="zk-status-product">
-								<img src="/img/ico-check.png">
-								в наличии
+								<p class="zk-price">2 980 руб.</p>
+								<div class="zk-show-menu">
+									<a href="#" class="zk-read-more">Подробнее</a>
+									<a href="#" class="zk-basket"></a>								
+								</div>
 							</div>
-							<p class="zk-price">2 980 руб.</p>
-							<div class="zk-show-menu">
-								<a href="#" class="zk-read-more">Подробнее</a>
-								<a href="#" class="zk-basket"></a>								
+						</li>					
+					</ul>			
+				</div>
+				<div class="zk-category">
+					<ul>
+						<li class="zk-product">
+							<div class="zk-bg-product">
+								<a href="#" class="zk-name-product">
+									<div class="zk-img">
+										<img src="/img/zk-product2.jpg" alt="" class="img-responsive">									
+									</div>
+									<span class="zk-title">
+										<b>Туфли Rieker артикул 11306-14</b>
+									</span>
+								</a>
+								<div class="zk-status-product">
+									<img src="/img/ico-check.png">
+									в наличии
+								</div>
+								<p class="zk-price">2 980 руб.</p>
+								<div class="zk-show-menu">
+									<a href="#" class="zk-read-more">Подробнее</a>
+									<a href="#" class="zk-basket"></a>								
+								</div>
 							</div>
-						</div>
-					</li>					
-				</ul>			
+						</li>					
+					</ul>			
+				</div>
+				<div class="zk-category">
+					<ul>
+						<li class="zk-product">
+							<div class="zk-bg-product">
+								<a href="#" class="zk-name-product">
+									<div class="zk-img">
+										<img src="/img/zk-product3.jpg" alt="" class="img-responsive">									
+									</div>
+									<span class="zk-title">
+										<b>Туфли Rieker артикул 11306-14</b>
+									</span>
+								</a>
+								<div class="zk-status-product">
+									<img src="/img/ico-check.png">
+									в наличии
+								</div>
+								<p class="zk-price">2 980 руб.</p>
+								<div class="zk-show-menu">
+									<a href="#" class="zk-read-more">Подробнее</a>
+									<a href="#" class="zk-basket"></a>								
+								</div>
+							</div>
+						</li>					
+					</ul>			
+				</div>
+				<div class="zk-category">
+					<ul>
+						<li class="zk-product">
+							<div class="zk-bg-product">
+								<a href="#" class="zk-name-product">
+									<div class="zk-img">
+										<img src="/img/zk-product.jpg" alt="" class="img-responsive">									
+									</div>
+									<span class="zk-title">
+										<b>Туфли Rieker артикул 11306-14</b>
+									</span>
+								</a>
+								<div class="zk-status-product">
+									<img src="/img/ico-check.png">
+									в наличии
+								</div>
+								<p class="zk-price">2 980 руб.</p>
+								<div class="zk-show-menu">
+									<a href="#" class="zk-read-more">Подробнее</a>
+									<a href="#" class="zk-basket"></a>								
+								</div>
+							</div>
+						</li>					
+					</ul>			
+				</div>
+				<div class="zk-category" id="zk-category-last-child">
+					<ul>
+						<li class="zk-product" >
+							<div class="zk-bg-product">
+								<a href="#" class="zk-name-product">
+									<div class="zk-img">
+										<img src="/img/zk-product.jpg" alt="" class="img-responsive">									
+									</div>
+									<span class="zk-title">
+										<b>Туфли Rieker артикул 11306-14</b>
+									</span>
+								</a>
+								<div class="zk-status-product">
+									<img src="/img/ico-check.png">
+									в наличии
+								</div>
+								<p class="zk-price">2 980 руб.</p>
+								<div class="zk-show-menu">
+									<a href="#" class="zk-read-more">Подробнее</a>
+									<a href="#" class="zk-basket"></a>								
+								</div>
+							</div>
+						</li>					
+					</ul>			
+				</div> 				
 			</div>
-			<div class="zk-category">
-				<ul>
-					<li class="zk-product">
-						<div class="zk-bg-product">
-							<a href="#" class="zk-name-product">
-								<div class="zk-img">
-									<img src="/img/zk-product2.jpg" alt="" class="img-responsive">									
+			<div  class="zk-category-5box">
+				<div class="zk-category">
+					<ul>
+						<li class="zk-product">
+							<div class="zk-bg-product">
+								<a href="#" class="zk-name-product">
+									<div class="zk-img">
+										<img src="/img/zk-product.jpg" alt="" class="img-responsive">									
+									</div>
+									<span class="zk-title">
+										<b>Туфли Rieker артикул 11306-14</b>
+									</span>
+								</a>
+								<div class="zk-status-product">
+									<img src="/img/ico-check.png">
+									в наличии
 								</div>
-								<span class="zk-title">
-									<b>Туфли Rieker артикул 11306-14</b>
-								</span>
-							</a>
-							<div class="zk-status-product">
-								<img src="/img/ico-check.png">
-								в наличии
-							</div>
-							<p class="zk-price">2 980 руб.</p>
-							<div class="zk-show-menu">
-								<a href="#" class="zk-read-more">Подробнее</a>
-								<a href="#" class="zk-basket"></a>								
-							</div>
-						</div>
-					</li>					
-				</ul>			
-			</div>
-			<div class="zk-category">
-				<ul>
-					<li class="zk-product">
-						<div class="zk-bg-product">
-							<a href="#" class="zk-name-product">
-								<div class="zk-img">
-									<img src="/img/zk-product3.jpg" alt="" class="img-responsive">									
+								<p class="zk-price">2 980 руб.</p>
+								<div class="zk-show-menu">
+									<a href="#" class="zk-read-more">Подробнее</a>
+									<a href="#" class="zk-basket"></a>								
 								</div>
-								<span class="zk-title">
-									<b>Туфли Rieker артикул 11306-14</b>
-								</span>
-							</a>
-							<div class="zk-status-product">
-								<img src="/img/ico-check.png">
-								в наличии
 							</div>
-							<p class="zk-price">2 980 руб.</p>
-							<div class="zk-show-menu">
-								<a href="#" class="zk-read-more">Подробнее</a>
-								<a href="#" class="zk-basket"></a>								
-							</div>
-						</div>
-					</li>					
-				</ul>			
-			</div>
-			<div class="zk-category">
-				<ul>
-					<li class="zk-product">
-						<div class="zk-bg-product">
-							<a href="#" class="zk-name-product">
-								<div class="zk-img">
-									<img src="/img/zk-product.jpg" alt="" class="img-responsive">									
+						</li>					
+					</ul>			
+				</div>
+				<div class="zk-category">
+					<ul>
+						<li class="zk-product">
+							<div class="zk-bg-product">
+								<a href="#" class="zk-name-product">
+									<div class="zk-img">
+										<img src="/img/zk-product.jpg" alt="" class="img-responsive">									
+									</div>
+									<span class="zk-title">
+										<b>Туфли Rieker артикул 11306-14</b>
+									</span>
+								</a>
+								<div class="zk-status-product">
+									<img src="/img/ico-check.png">
+									в наличии
 								</div>
-								<span class="zk-title">
-									<b>Туфли Rieker артикул 11306-14</b>
-								</span>
-							</a>
-							<div class="zk-status-product">
-								<img src="/img/ico-check.png">
-								в наличии
-							</div>
-							<p class="zk-price">2 980 руб.</p>
-							<div class="zk-show-menu">
-								<a href="#" class="zk-read-more">Подробнее</a>
-								<a href="#" class="zk-basket"></a>								
-							</div>
-						</div>
-					</li>					
-				</ul>			
-			</div>
-			<div class="zk-category" id="zk-category-last-child">
-				<ul>
-					<li class="zk-product" >
-						<div class="zk-bg-product">
-							<a href="#" class="zk-name-product">
-								<div class="zk-img">
-									<img src="/img/zk-product.jpg" alt="" class="img-responsive">									
+								<p class="zk-price">2 980 руб.</p>
+								<div class="zk-show-menu">
+									<a href="#" class="zk-read-more">Подробнее</a>
+									<a href="#" class="zk-basket"></a>								
 								</div>
-								<span class="zk-title">
-									<b>Туфли Rieker артикул 11306-14</b>
-								</span>
-							</a>
-							<div class="zk-status-product">
-								<img src="/img/ico-check.png">
-								в наличии
 							</div>
-							<p class="zk-price">2 980 руб.</p>
-							<div class="zk-show-menu">
-								<a href="#" class="zk-read-more">Подробнее</a>
-								<a href="#" class="zk-basket"></a>								
-							</div>
-						</div>
-					</li>					
-				</ul>			
-			</div>
-			<div class="zk-category">
-				<ul>
-					<li class="zk-product">
-						<div class="zk-bg-product">
-							<a href="#" class="zk-name-product">
-								<div class="zk-img">
-									<img src="/img/zk-product.jpg" alt="" class="img-responsive">									
+						</li>					
+					</ul>			
+				</div>
+				<div class="zk-category">
+					<ul>
+						<li class="zk-product">
+							<div class="zk-bg-product">
+								<a href="#" class="zk-name-product">
+									<div class="zk-img">
+										<img src="/img/zk-product.jpg" alt="" class="img-responsive">									
+									</div>
+									<span class="zk-title">
+										<b>Туфли Rieker артикул 11306-14</b>
+									</span>
+								</a>
+								<div class="zk-status-product">
+									<img src="/img/ico-check.png">
+									в наличии
 								</div>
-								<span class="zk-title">
-									<b>Туфли Rieker артикул 11306-14</b>
-								</span>
-							</a>
-							<div class="zk-status-product">
-								<img src="/img/ico-check.png">
-								в наличии
+								<p class="zk-price">2 980 руб.</p>
+								<div class="zk-show-menu">
+									<a href="#" class="zk-read-more">Подробнее</a>
+									<a href="#" class="zk-basket"></a>								
+								</div>
 							</div>
-							<p class="zk-price">2 980 руб.</p>
-							<div class="zk-show-menu">
-								<a href="#" class="zk-read-more">Подробнее</a>
-								<a href="#" class="zk-basket"></a>								
+						</li>					
+					</ul>			
+				</div>
+				<div class="zk-category">
+					<ul>
+						<li class="zk-product">
+							<div class="zk-bg-product">
+								<a href="#" class="zk-name-product">
+									<div class="zk-img">
+										<img src="/img/zk-product.jpg" alt="" class="img-responsive">									
+									</div>
+									<span class="zk-title">
+										<b>Туфли Rieker артикул 11306-14</b>
+									</span>
+								</a>
+								<div class="zk-status-product">
+									<img src="/img/ico-check.png">
+									в наличии
+								</div>
+								<p class="zk-price">2 980 руб.</p>
+								<div class="zk-show-menu">
+									<a href="#" class="zk-read-more">Подробнее</a>
+									<a href="#" class="zk-basket"></a>								
+								</div>
 							</div>
-						</div>
-					</li>					
-				</ul>			
+						</li>					
+					</ul>			
+				</div>
+				<div class="zk-category" id="zk-category-last-child">
+					<ul>
+						<li class="zk-product" >
+							<div class="zk-bg-product">
+								<a href="#" class="zk-name-product">
+									<div class="zk-img">
+										<img src="/img/zk-product.jpg" alt="" class="img-responsive">									
+									</div>
+									<span class="zk-title">
+										<b>Туфли Rieker артикул 11306-14</b>
+									</span>
+								</a>
+								<div class="zk-status-product">
+									<img src="/img/ico-check.png">
+									в наличии
+								</div>
+								<p class="zk-price">2 980 руб.</p>
+								<div class="zk-show-menu">
+									<a href="#" class="zk-read-more">Подробнее</a>
+									<a href="#" class="zk-basket"></a>								
+								</div>
+							</div>
+						</li>					
+					</ul>			
+				</div>
 			</div>
 		</div>
 	</div>

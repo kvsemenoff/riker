@@ -189,43 +189,47 @@
 
 
 #zk-category-last-child{
-	margin-right: 0px;
-}
+	//margin-right: 0px;
+	}
+.zk-category-5box{padding-left: 17%;}
 .zk-category{
 	display: inline-block;
     float: left;
     margin-right: 14px;
     margin-top: 15px;
-    position: relative;    
+    position: relative;
+
     .zk-product{
     	.zk-bg-product{
     		background: #fff;
 		    border-radius: 6px;
 		    box-shadow: 0 2px 5px #dcdcdc;		   
 		    width: 150px;
-		    overflow: hidden;		    
+		    overflow: hidden;
+		    min-height: 290px;    		    
 		    .zk-name-product{
 		    	display: block;
-		    	padding: 9px;
-		    	
+		    	padding: 9px;		    	
 		    	.zk-img {
 		    		text-align: center;		    		
 		    		height: 120px;
 		    		width: 150px;
-		    		padding: 15px 20px 0 10px;
-		    		
+		    		padding: 15px 20px 0 10px;		    		
 		    	}
 		    	.zk-title{
 	    		    color: #5D84BA;
 				    font-family: MSC-1;
 				    font-size: 14px;
-				    margin: 10px 5px;
-				    max-height: 35px;
+				    margin: 10px 5px;				    
 				    overflow: hidden;
 				    border-bottom: 2.5px dotted #698BBA;
+				    //height: 38px;
+				    width:120px;
+				    //display: inline-block;			   		   			   
 		    	}
 		    	.zk-title:hover{
 		    		border:none;
+
 		    	}
 		    }
 		    .zk-status-product {
@@ -289,24 +293,31 @@
     		}
     		.zk-basket:hover{
     			background: url(..//img/ico-addBasket-hover.png);
-    		}
-    		
+    		}    		
     	}
     }
-}						
+}
+						
 
 @media only screen and (min-width : 320px) {
+	.zk-category-5box{padding-left: 5%;}
 }
 
 @media only screen and (min-width : 480px) {
 	 .about-company{
 	 	padding-left: 8%;
 	 }
+	 .zk-category-5box{
+	 	padding-left: 7%;
+	 }
 }
 
 @media only screen and (min-width : 768px) {
 	 .about-company{
 		padding-left: 5%;
+	 }
+	 .zk-category-5box{
+	 	padding-left: 6%;
 	 }
 }
 
@@ -322,16 +333,21 @@
 		}
 		.blk-right{
 			width: 60%;
-			padding:30px 20px 3% 25px;
-			
+			padding:30px 20px 3% 25px;			
 		}	   
 	}
+	.zk-category-5box{
+	 	padding-left: 1%;
+	 }
 }
 
 @media only screen and (min-width : 1248px) {
 	.blk-right{
 			width: 63%;
-		}	 
+		}
+	.zk-category-5box{
+		padding-left: 0%;
+	}		 
 }
 
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
