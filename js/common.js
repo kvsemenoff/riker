@@ -37,19 +37,15 @@ $(document).ready(function(){
 
     //====slidemenu===category.php=======
 
-<<<<<<< HEAD
-    $('.item').hover(function(){
-        $('.zk-show-menu', this).slideDown(500);    
-=======
+
+    // $('.item').hover(function(){
+    //      $('.zk-show-menu', this).slideDown(500);
     $('.zk-category').hover(function(){
-        $('.zk-show-menu', this).slideDown(450);    
->>>>>>> 0c0bcb9c8d32d5964b972c0eae0f3a46d09074d8
+        $('.zk-show-menu', this).slideDown(450);
     },function(){
         $('.zk-show-menu', this).slideUp(400);             
     });
-
-
- });
+ //});
 
 
 
