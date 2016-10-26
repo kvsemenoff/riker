@@ -34,8 +34,6 @@
 		width: 37%;
 		display: none;
 		visibility: hidden;
-
-
 	}
 	.blk-right{	
 			float: left;		
@@ -113,6 +111,9 @@
 	ul li:last-child a{
 			color: #9b9b9b;
 			border-bottom:none;
+			font-family: MSC-1;
+			font-size: 11px;
+
 		}
 		ul li a:hover{
 			border-bottom: none;
@@ -297,6 +298,33 @@
     	}
     }
 }
+
+
+
+
+
+						//END OF A CATEGORY===================
+
+						//START A SEPARATE-PRODUCT=============
+
+.zk-head-caption{
+	font-family: MC-700;
+    font-size: 16px;
+    border-bottom: 1px solid silver;
+    padding-bottom: 10px; 
+    span{    	
+    	border-bottom: 1px solid red;
+    	margin-bottom: 10px;  		
+    }
+    
+    	
+   
+}
+
+
+
+
+
 						
 
 @media only screen and (min-width : 320px) {
