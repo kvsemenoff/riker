@@ -40,7 +40,7 @@
 		<div class="col-md-12">
 			<div class="zk-info-top-menu">
 		        <ul> 
-		            <li class="zk-first-img"><a href="/">Главная </a></li>        
+		            <li class="zk-first-img"><a href="/">Главная страница</a></li>        
 		        	<li> / &nbsp;&nbsp;<a href="/news/">Каталог</a></li>
 					<li> / &nbsp;&nbsp;<a href="">Rieker</a></li>
 		       	</ul>
