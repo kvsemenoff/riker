@@ -189,42 +189,47 @@
 
 
 #zk-category-last-child{
-	margin-right: 0px;
-}
+	//margin-right: 0px;
+	}
+.zk-category-5box{padding-left: 17%;}
 .zk-category{
 	display: inline-block;
     float: left;
     margin-right: 14px;
     margin-top: 15px;
-    position: relative;    
+    position: relative;
+
     .zk-product{
     	.zk-bg-product{
     		background: #fff;
 		    border-radius: 6px;
 		    box-shadow: 0 2px 5px #dcdcdc;		   
-		    width: 150px; 
+		    width: 150px;
+		    overflow: hidden;
+		    min-height: 310px;    		    
 		    .zk-name-product{
 		    	display: block;
-		    	padding: 9px;
-		    	
+		    	padding: 9px;		    	
 		    	.zk-img {
 		    		text-align: center;		    		
 		    		height: 120px;
 		    		width: 150px;
-		    		padding: 15px 20px 0 10px;
-		    		
+		    		padding: 15px 20px 0 10px;		    		
 		    	}
 		    	.zk-title{
 	    		    color: #5D84BA;
 				    font-family: MSC-1;
 				    font-size: 14px;
-				    margin: 10px 5px;
-				    height: 36px;
+				    margin: 10px 5px;				    
 				    overflow: hidden;
 				    border-bottom: 2.5px dotted #698BBA;
+				    //height: 38px;
+				    width:120px;
+				    //display: inline-block;			   		   			   
 		    	}
 		    	.zk-title:hover{
-		    		border-bottom: none;
+		    		border:none;
+
 		    	}
 		    }
 		    .zk-status-product {
@@ -232,20 +237,24 @@
     			margin: 3px 5px;
     			padding: 0px 10px;
     			font-family: MC-700;
+    			img{
+    				width: 8px;
+    				height: 6px;
+    			}
 		    }
 		    .zk-price{
 		    	border-top: 1px solid #e5e5e3;		    	
 			    color: #434343;			    
 			    font-family: MC-700;
 			    margin-top: 10px;			    
-			    padding: 12px 10px;
+			    padding: 15px 12px;
 			    font-size: 18px;
 			    font-weight: bold;
-			    height:80px;
+			    margin-bottom: 37px;
 		    }
     	}
     	.zk-bg-product:hover{
-    		border-radius: 6px 6px 0px 0px;
+    		border-radius: 6px 6px 0px 0px;  				//<<<<<<ON=THE=HOVER=TO=ZK-SHOW-MENU
     	}
     	.zk-show-menu{
     		display: none;
@@ -263,7 +272,7 @@
 			    display: inline-block;
 			    font-family: MSC-2;
 			    font-size: 11px;
-			    margin: 10px 22px 10px 10px;
+			    margin: 10px 15px 10px 10px;
 			    padding: 7px 10px;
 			    text-align: center;
 			    transition: background-color 0.5s ease 0s, color 0.5s ease 0s, border 0.5s ease 0s;
@@ -284,24 +293,31 @@
     		}
     		.zk-basket:hover{
     			background: url(..//img/ico-addBasket-hover.png);
-    		}
-    		
+    		}    		
     	}
     }
-}						
+}
+						
 
 @media only screen and (min-width : 320px) {
+	.zk-category-5box{padding-left: 5%;}
 }
 
 @media only screen and (min-width : 480px) {
 	 .about-company{
 	 	padding-left: 8%;
 	 }
+	 .zk-category-5box{
+	 	padding-left: 7%;
+	 }
 }
 
 @media only screen and (min-width : 768px) {
 	 .about-company{
 		padding-left: 5%;
+	 }
+	 .zk-category-5box{
+	 	padding-left: 6%;
 	 }
 }
 
@@ -317,16 +333,21 @@
 		}
 		.blk-right{
 			width: 60%;
-			padding:30px 20px 3% 25px;
-			
+			padding:30px 20px 3% 25px;			
 		}	   
 	}
+	.zk-category-5box{
+	 	padding-left: 1%;
+	 }
 }
 
 @media only screen and (min-width : 1248px) {
 	.blk-right{
 			width: 63%;
-		}	 
+		}
+	.zk-category-5box{
+		padding-left: 0%;
+	}		 
 }
 
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
