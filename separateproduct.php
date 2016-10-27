@@ -60,37 +60,60 @@
 				<div class="zk-left">
 					<div class="zk-left-blok">
 						<div class="zk-top-box">
-							<a href="#"><img src="/img/zk-product.jpg" alt=""></a>
+							<a href="#"><img src="/img/zk-product.jpg" alt="" class="img-responsive"></a>
 						</div>
 						<div class="zk-middle-box">
 							<a href="#"><img src="/img/zk-product.jpg" alt=""></a>
 						</div>
-						<div>
-							<div>
-								<a href="">Описание</a>
-								<a href="">Отзывы</a>
+						<div class="zk-box-comments">
+							<div class="zk-comment-links">
+								<a href="#">Описание</a>
+								<a href="#">Отзывы</a>
 							</div>
-							<div>
+							<div class="zk-describe">
 								<p>Туфли Rieker артикул 11306-14 Подошва: полиуретан Мат-л верха: кожа Подкладка: Кожа/ИК</p>
 							</div>
 						</div>
 					</div>
 				</div>
 				<div class="zk-center">
-					<div class="zk-first-box">
-						<div>
-							Рейтинг:
+					<span class="zkrank">Рейтинг:</span>
+					<div class="zk-top-rank">
+						<div class="zk-first-box">
+							
+							<div class="zk-input-stars"> 																
+								<input type="radio" name="radio1" id="a0" class="radio0">
+								<input type="radio" name="radio1" id="a1" class="radio1">
+								<input type="radio" name="radio1" id="a2" class="radio2">
+								<input type="radio" name="radio1" id="a3" class="radio3">
+								<input type="radio" name="radio1" id="a4" class="radio4">
+								<input type="radio" name="radio1" id="a5" class="radio5">											
+								<label for="a0" class="az-none"></label>
+								<label for="a1" class="label1"></label>
+								<label for="a2" class="label2"></label>
+								<label for="a3" class="label3"></label>
+								<label for="a4" class="label4"></label>	
+								<label for="a5" class="label5"></label>									
+							</div>
+						</div>
+						<div class="zk-second-box">
+							<div>
+								<a class="default-link" href="/">1 оценок</a>
+							</div>
+						</div>
+						<div class="zk-third-box">
+							<div>
+								<a class="default-link" href="#top">Написать отзыв</a>
+							</div>
 						</div>
 					</div>
-					<div class="zk-second-box">
-						<div>
-							<a class="default-link" href="/">1 оценок</a>
-						</div>
+					<div class="zk-price-product">
+						<p class="zkprice">2 980 <span>руб.</span></p>
+						<p class="zkstatus">в наличии</p>
 					</div>
-					<div class="zk-third-box">
-						<div>
-							<a class="default-link" href="#top">Написать отзыв</a>
-						</div>
+					<div class="zk-add-button">
+						<a href="#" class="zk-add">Добавить в корзину</a>
+						<a href="#" class="zk-basket-button"></a>	
 					</div>
 				</div>
 				<div class="zk-right">
@@ -114,14 +137,19 @@
 					</ul>
 					<div class="zk-social">
 						<span>Поделиться:</span>
-						<ul>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
-						</ul>
+						<div>
+							
+
+
+							<!-- <ul>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul> -->
+						</div>
 					</div>
 				</div>
 				<div class="clear"></div>
