@@ -137,18 +137,16 @@
 					</ul>
 					<div class="zk-social">
 						<span>Поделиться:</span>
-						<div>
-							
-
-
-							<!-- <ul>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-							</ul> -->
+						<div class="zksocial">
+							<ul>								
+								<a href=""><li class="vk"> <img src="/img/vk.svg" alt=""></li></a>
+								<a href=""><li class="facebook"> <img src="/img/facebook.svg" alt=""></li></a>
+								<a href=""><li class="ok"> <img src="/img/ok.svg" alt=""></li></a>
+								<a href=""><li class="myworld"> <img src="/img/myworld.svg" alt=""></li></a>
+								<a href=""><li class="google"> <img src="/img/google.svg" alt=""></li></a>
+								<a href=""><li class="twitter"> <img src="/img/twitter.svg" alt=""> </li></a>
+							</ul>
+							<div class="clear"></div>
 						</div>
 					</div>
 				</div>

@@ -477,21 +477,26 @@
     		//float: left;
     		margin:  0 auto;
 		    cursor: pointer;
-		    text-align: center;
-		    padding-right: 2px;		    
+		    text-align: left;
+		    padding-right: 5px;		    
 		    border: 3px solid #c40237;
-		    border-radius: 4px;			
-			width: 205px;
+		    border-radius: 4px;					
 			margin-top: 20px;
+			width: 205px;			
+			max-height:43px;
+			border: 3px solid #c40237;
+	    	border-radius: 4px;
     		.zk-add{    			
 				background: #c40237;			    
 			    color: #ffffff;
 			    display: inline-block;
+			    max-width: 165px;			    
+			   	height: 39px;
 			    font-family: MSC-2;
-			    font-size: 14px;			    
+			    font-size: 14px;			       
 			    padding: 10px 14px 10px 10px;		   
-			    margin-right: 9px;
-			    text-align: left;
+			    margin-right: 5px;
+			    //text-align: center;
 			    transition: background-color 0.5s ease 0s, color 0.5s ease 0s, border 0.5s ease 0s;
 			    
     		}
@@ -545,7 +550,55 @@
 			    }
 			}
 		}
-		.zk-social{
+		.zk-social{			
+			text-align: center;
+			.zksocial{
+				.vk, .facebook, .ok, .myworld, .google, .twitter{border-radius: 3px;}
+
+				.vk:hover{
+					background: rgba( #48729E, 0.77);
+				}				 
+				.facebook:hover{
+					background: rgba( #3B5998, 0.77);
+				} 
+				.ok:hover{
+					background: rgba( #EB722E, 0.77);
+				} 
+				.myworld:hover{
+					background: rgba(#168DE2, 0.77);
+				}
+				.google:hover{
+					background: rgba(#DC4E41, 0.77);
+				}
+				.twitter:hover{
+					background: rgba(#00ACED, 0.77);
+				}
+
+				.vk{
+					background: #48729E;					
+				}
+				.facebook{
+					background: #3B5998;					
+				}
+				.ok{
+					background: #EB722E;
+				}
+				.myworld{
+					background: #168DE2;
+				}
+				.google{
+					background: #DC4E41;
+				}
+				.twitter{
+					background: #00ACED;
+				}
+				ul li{
+					width: 24px;
+					height:24px;
+					float: left;
+					margin-right: 3px;
+				}
+			}
 			span{
 				color: #737678;
 			    display: block;
@@ -730,13 +783,7 @@
 
     	}
     	.zk-add-button{
-    		float: left;
-    		border: 3px solid #c40237;
-	    	border-radius: 4px;			 
-    		.zk-add{    			
-			    //margin-right: 10px;			   
-    		}		
-   
+    		float: left;   
     	}    	
 	}
 	.zk-right{
@@ -745,7 +792,7 @@
 		width: 17%;
 		//min-width: 170px;
 		min-height: 200px;
-		text-align: center;				
+				
 	}
 }
 
