@@ -34,7 +34,7 @@
 
 	<?php require_once('includes/header.php'); ?>
 	
-<section>	
+<section>
 <div class="container">
 	<div class="row">
 		<div class="col-md-12">
