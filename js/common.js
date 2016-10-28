@@ -38,22 +38,11 @@ $(document).ready(function(){
     //====slidemenu===category.php=======
 
 
-
-
-
 $('.zk-category').hover(function(){
   $('.zk-show-menu',this).slideToggle(450);
 });
 
 
-
-
-
-
-
-
-
- 
   var owl = $("#owl-demo");
  
   owl.owlCarousel({
@@ -83,11 +72,6 @@ $('.zk-category').hover(function(){
     }
      
   });
- 
-  
- 
-
-
 
  
   var owl = $("#owl-demo2");
@@ -121,11 +105,6 @@ $('.zk-category').hover(function(){
   });
  
   
- 
-
-
-
- 
   var owl = $("#owl-demo3");
  
   owl.owlCarousel({
@@ -156,6 +135,10 @@ $('.zk-category').hover(function(){
  
  });
 
+<<<<<<< HEAD
+ }); 
+
+=======
 
 
 
@@ -165,3 +148,4 @@ $('.zk-category').hover(function(){
 
 
  }); 
+>>>>>>> ccf82755516e2493e380d586ea0c130e28f29893
