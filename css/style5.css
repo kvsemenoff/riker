@@ -232,7 +232,7 @@
   padding-bottom: 10px;
   margin-top: 20px; }
   .zk-head-caption span {
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid #c40237;
     padding-bottom: 10px; }
 
 .zk-product-block {
@@ -241,7 +241,8 @@
   box-shadow: 0 2px 5px #eaeaea;
   margin: 20px 0;
   text-align: center;
-  outline: 1px solid red; }
+  outline: 1px solid red;
+  padding-top: 10px; }
   .zk-product-block .zk-left {
     margin: 0 auto; }
     .zk-product-block .zk-left .zk-left-blok {
@@ -258,8 +259,8 @@
         border: 1px solid #e5e5e3;
         border-radius: 4px;
         padding-top: 20%;
-        margin-bottom: 15px;
-        margin: 0 auto; }
+        margin: 0 auto;
+        margin-bottom: 20px; }
       .zk-product-block .zk-left .zk-left-blok .zk-middle-box {
         border: 1px solid #c0cfda;
         width: 70px;
@@ -345,22 +346,34 @@
       margin: 0 auto;
       cursor: pointer;
       text-align: center;
-      width: 204px; }
+      padding-right: 2px;
+      border: 3px solid #c40237;
+      border-radius: 4px;
+      width: 205px;
+      margin-top: 20px; }
       .zk-product-block .zk-center .zk-add-button .zk-add {
-        border: 3px solid #c40237;
-        border-radius: 4px;
         background: #c40237;
         color: #ffffff;
         display: inline-block;
         font-family: MSC-2;
         font-size: 14px;
-        padding: 11px 10px 11px 10px;
+        padding: 10px 14px 10px 10px;
+        margin-right: 9px;
         text-align: left;
-        transition: background-color 0.5s ease 0s, color 0.5s ease 0s, border 0.5s ease 0s;
-        position: relative; }
+        transition: background-color 0.5s ease 0s, color 0.5s ease 0s, border 0.5s ease 0s; }
       .zk-product-block .zk-center .zk-add-button .zk-add:hover {
         background: none;
         color: #c40237; }
+      .zk-product-block .zk-center .zk-add-button .zk-basket-button {
+        text-align: center;
+        background: url(..//img/ico-addBasket.png) center left no-repeat;
+        width: 20px;
+        height: 19px;
+        display: inline-block;
+        vertical-align: middle;
+        transition: background 0.5s; }
+      .zk-product-block .zk-center .zk-add-button .zk-basket-button:hover {
+        background: url(..//img/ico-addBasket-hover.png) center left no-repeat; }
   .zk-product-block .zk-right {
     padding: 10px;
     width: 17%;
@@ -473,7 +486,7 @@
       float: left;
       width: 370px; }
       .zk-product-block .zk-left .zk-left-blok .zk-top-box {
-        width: 365px;
+        max-width: 370px;
         height: 377px;
         margin-bottom: 20px; }
       .zk-product-block .zk-left .zk-left-blok .zk-middle-box {
@@ -486,12 +499,12 @@
     width: 45%;
     margin: 20px 15px 0 15px; }
     .zk-product-block .zk-center .zkrank {
-      float: left; }
+      float: left;
+      padding-right: 10px; }
     .zk-product-block .zk-center .zk-top-rank {
       border-bottom: 3px solid #e5e5e3; }
       .zk-product-block .zk-center .zk-top-rank .zk-first-box {
-        float: left;
-        width: 220px; }
+        float: left; }
       .zk-product-block .zk-center .zk-top-rank .zk-second-box, .zk-product-block .zk-center .zk-top-rank .zk-third-box {
         float: left;
         border-left: 1px solid #e5e5e3; }
@@ -501,16 +514,17 @@
         float: left; }
       .zk-product-block .zk-center .zk-price-product .zkstatus {
         float: left;
-        padding-left: 15px; }
+        padding-left: 19px;
+        margin-top: 28px;
+        width: 100px; }
     .zk-product-block .zk-center .zk-add-button {
-      float: left; }
-      .zk-product-block .zk-center .zk-add-button .zk-add {
-        margin-right: 10px; }
+      float: left;
+      border: 3px solid #c40237;
+      border-radius: 4px; }
   .zk-product-block .zk-right {
-    float: left;
-    padding: 10px;
+    float: right;
+    padding: 10px 20px 0 10px;
     width: 17%;
-    min-width: 170px;
     min-height: 200px;
     text-align: center; } }
 @media only screen and (min-width: 1248px) {

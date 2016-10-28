@@ -313,7 +313,7 @@
     padding-bottom: 10px;
     margin-top: 20px; 
     span{    	
-    	border-bottom: 1px solid red;
+    	border-bottom: 1px solid #c40237;
     	padding-bottom: 10px;  		
     }   
 }
@@ -324,6 +324,7 @@
 	margin: 20px 0;
 	text-align: center;
 	outline:1px solid red;
+	padding-top: 10px;
 	.zk-left{
 		//float: left;
 		margin: 0 auto;
@@ -336,15 +337,15 @@
 			padding-left: 12px;	
 			margin: 0 auto;
 			.zk-top-box {				
-				//width:365px;				
+						
 				//height:377px;
 				text-align: center;
 				vertical-align: middle;
 				border: 1px solid #e5e5e3;
     			border-radius: 4px;
-    			padding-top: 20%;
-    			margin-bottom: 15px;
+    			padding-top: 20%;    			
     			margin: 0 auto;	
+    			margin-bottom: 20px;
 
 			}
 			.zk-middle-box{				
@@ -397,7 +398,8 @@
 		//float: left;
 		padding: 15px;
     	//width: 45%;
-    	width: 220px;    	    	
+    	width: 220px;
+
     	//margin: 20px 15px 0 15px;
     	margin:0 auto;
     	.zkrank{
@@ -476,42 +478,40 @@
     		margin:  0 auto;
 		    cursor: pointer;
 		    text-align: center;
-		    //padding-right: 2px;
-		    width: 204px; 
-    		.zk-add{
-    			border: 3px solid #c40237;
-		    	border-radius: 4px;
+		    padding-right: 2px;		    
+		    border: 3px solid #c40237;
+		    border-radius: 4px;			
+			width: 205px;
+			margin-top: 20px;
+    		.zk-add{    			
 				background: #c40237;			    
 			    color: #ffffff;
 			    display: inline-block;
 			    font-family: MSC-2;
 			    font-size: 14px;			    
-			    padding: 11px 10px 11px 10px;
-			    //margin-right: 10px;
+			    padding: 10px 14px 10px 10px;		   
+			    margin-right: 9px;
 			    text-align: left;
 			    transition: background-color 0.5s ease 0s, color 0.5s ease 0s, border 0.5s ease 0s;
-			    position: relative;
+			    
     		}
     		.zk-add:hover{
 				background: none;
 				color: #c40237;				
     		}
-    // 		.zk-basket-button{
-				// text-align: center;
-    // 			background: url(..//img/ico-addBasket.png)center left 10px no-repeat;
-    // 			width: 20px;//20
-    // 			height:19px;
-				// //position: absolute;
-    // 			display: inline-block;
-    // 			vertical-align: middle;
-    // 			transition: background 0.5s;
-    // 			//margin-right: 20px;
-
-    // 			outline:1px solid black; 
-    // 		}
-    // 		.zk-basket-button:hover{
-    // 			background: url(..//img/ico-addBasket-hover.png) no-repeat;
-    // 		}    		
+    		.zk-basket-button{
+    			
+				text-align: center;
+    			background: url(..//img/ico-addBasket.png)center left no-repeat;
+    			width: 20px;//20
+    			height:19px;				
+    			display: inline-block;
+    			vertical-align: middle;
+    			transition: background 0.5s;    				
+    		}
+    		.zk-basket-button:hover{
+    			background: url(..//img/ico-addBasket-hover.png)center left  no-repeat;
+    		}    		
     	}    	
 	}
 	.zk-right{
@@ -663,20 +663,22 @@
     font-size: 16px;
     border-bottom: 1px solid  #dfe4e8;
     padding-bottom: 10px;
-    margin-top: 20px; 
-    
+
+    margin-top: 20px;     
 }
-.zk-product-block{
-	
+
+
+
+
+
+.zk-product-block{	
 	.zk-left{
-		float: left;
-		
+		float: left;		
 		.zk-left-blok{				
 			float: left;
 			width: 370px;
-
 			.zk-top-box {				
-				width:365px;				
+				max-width:370px;				
 				height:377px;
 				margin-bottom:20px;
 			}
@@ -690,11 +692,7 @@
     					width: 50%;						
 						float: left;
 						 					
-					}
-					// a:last-child:link{
-					// 	background-color: #f7f7f7;
-					// }
-					
+					}									
 				}
 				
 			}
@@ -704,18 +702,14 @@
 		float: left;		
     	width: 45%;    		    	
     	margin: 20px 15px 0 15px;    	
-    	.zkrank{
-			
+    	.zkrank{			
     		float: left;
-    		
-    		
+    		padding-right: 10px;    		
     	}
     	.zk-top-rank{
-    		border-bottom: 3px solid #e5e5e3;
-    		
+    		border-bottom: 3px solid #e5e5e3;    		
 	    	.zk-first-box{	    		
-	    		float: left;
-	    		width: 220px;	    		
+	    		float: left;	    			    		
 	    	}
 	    	.zk-second-box, .zk-third-box{
 	    		float: left;
@@ -729,39 +723,27 @@
     		}
     		.zkstatus{				
 			    float: left;			   
-			   	padding-left: 15px;			   
+			   	padding-left: 19px;
+			   	margin-top: 28px;
+			   	width: 100px;	   
     		}
 
     	}
     	.zk-add-button{
-    		float: left;		   
+    		float: left;
+    		border: 3px solid #c40237;
+	    	border-radius: 4px;			 
     		.zk-add{    			
-			    margin-right: 10px;			   
-    		}
-    		
-    // 		.zk-basket-button{
-				// text-align: center;
-    // 			background: url(..//img/ico-addBasket.png)center left 10px no-repeat;
-    // 			width: 20px;//20
-    // 			height:19px;
-				// //position: absolute;
-    // 			display: inline-block;
-    // 			vertical-align: middle;
-    // 			transition: background 0.5s;
-    // 			//margin-right: 20px;
-
-    // 			outline:1px solid black; 
-    // 		}
-    // 		.zk-basket-button:hover{
-    // 			background: url(..//img/ico-addBasket-hover.png) no-repeat;
-    // 		}    		
+			    //margin-right: 10px;			   
+    		}		
+   
     	}    	
 	}
 	.zk-right{
-		float: left;
-		padding: 10px;
+		float: right;
+		padding: 10px 20px 0 10px;
 		width: 17%;
-		min-width: 170px;
+		//min-width: 170px;
 		min-height: 200px;
 		text-align: center;				
 	}
