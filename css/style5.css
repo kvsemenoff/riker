@@ -31,7 +31,7 @@
     float: left;
     font-family: MSC-1;
     color: #71777a;
-    font-size: 12px;
+    font-size: 14px;
     padding: 30px 20px 3% 20px;
     width: 100%; }
     .about-company .blk-right h1 {
@@ -294,7 +294,8 @@
           text-align: center;
           font-family: MC-500;
           font-size: 12px;
-          padding: 25px 10px 15px 10px; }
+          padding: 25px 10px 15px 10px;
+          height: 70px; }
           .zk-product-block .zk-left .zk-left-blok .zk-box-comments .zk-describe p {
             text-align: left; }
           .zk-product-block .zk-left .zk-left-blok .zk-box-comments .zk-describe .blog-add-comment .zk-button-comments {
@@ -515,6 +516,22 @@
 #tab_2:checked ~ #tab_l2 {
   background: #F5F5F5; }
 
+@keyframes anim {
+  0% {
+    height: 0px; }
+  100% {
+    height: 50px; } }
+.zk-category .zk-show-menu {
+  display: block;
+  overflow: hidden;
+  height: 0px; }
+
+.zk-category:hover .zk-show-menu {
+  display: block;
+  height: 50px;
+  animation: anim 0.5s ease-in-out 0.25s;
+  animation-fill-mode: both; }
+
 @media only screen and (min-width: 320px) {
   .zk-category-5box {
     padding-left: 5%; } }
@@ -534,13 +551,13 @@
   .about-company {
     padding-left: 2%; }
     .about-company .blk-left {
-      overflow: hidden;
       padding-right: 0px;
       display: block;
-      visibility: visible; }
+      visibility: visible;
+      margin-top: 5%; }
     .about-company .blk-right {
       width: 60%;
-      padding: 30px 20px 3% 25px; }
+      padding: 1% 20px 0% 25px; }
 
   .zk-category-5box {
     padding-left: 1%; }
@@ -601,6 +618,9 @@
     width: 63%; }
 
   .zk-category-5box {
-    padding-left: 0%; } }
+    padding-left: 0%; }
+
+  .blk-left {
+    margin-top: 0%; } }
 
 /*# sourceMappingURL=style5.css.map */

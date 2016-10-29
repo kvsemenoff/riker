@@ -38,11 +38,19 @@ $(document).ready(function(){
     //====slidemenu===category.php=======
 
 
-$('.zk-category').hover(function(){
-  $('.zk-show-menu',this).slideToggle(450);
-});
+// $('.zk-category').hover( function(){
+//   setTimeout( function(){
+//       clearTimeout();
+//       $('.zk-show-menu', this).slideToggle(450);
+//     }, 500);        
+// });
 
-
+// $('.zk-category').hover(function(){
+//   var nav = $('.zk-show-menu', this);
+//   setTimeout( function(){      
+//       nav.slideToggle(450);
+//      }, 1000);   
+// });
 
 
 $('.zk-button-comments').css("display", "none");
