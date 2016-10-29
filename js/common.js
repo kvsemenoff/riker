@@ -43,6 +43,23 @@ $('.zk-category').hover(function(){
 });
 
 
+
+
+$('.zk-button-comments').css("display", "none");
+
+$('#tab_l1').on('click', function(){
+  $('.zk-button-comments').hide();
+   $('.zk-desc').show();
+});
+
+$('#tab_l2').on('click', function(){
+  $('.zk-button-comments').css("display", "block").show();
+   $('.zk-desc').hide();
+});
+
+
+
+
   var owl = $("#owl-demo");
  
   owl.owlCarousel({

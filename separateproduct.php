@@ -53,8 +53,7 @@
 	<div class="row">
 		<div class="col-md-12">
 			<div class="zk-head-caption">
-				<span>Туфли Rieker артикул 11306-14</span>
-				
+				<span>Туфли Rieker артикул 11306-14</span>				
 			</div>
 			<div class="zk-product-block">
 				<div class="zk-left">
@@ -66,15 +65,21 @@
 							<a href="#"><img src="/img/zk-product.jpg" alt=""></a>
 						</div>
 						<div class="zk-box-comments">
-							<div class="zk-comment-links">
-								<a href="#">Описание</a>
-								<a href="#">Отзывы</a>
+							<div class="zk-comment-links tabs_style">
+								<input id="tab_1" type="radio" name="tab" checked="checked"/>
+								<input id="tab_2" type="radio" name="tab"/>
+								<label for="tab_1" id="tab_l1" class="active">Описание</label>
+								<label for="tab_2" id="tab_l2">Отзывы</label>
 							</div>
 							<div class="zk-describe">
-								<p>Туфли Rieker артикул 11306-14 Подошва: полиуретан Мат-л верха: кожа Подкладка: Кожа/ИК</p>
+								<p class="zk-desc">Туфли Rieker артикул 11306-14 Подошва: полиуретан Мат-л верха: кожа Подкладка: Кожа/ИК</p>
+								<div class="blog-add-comment">
+									<a href="#" class="zk-button-comments"><span>Добавить комментарий</span></a>
+								</div>
 							</div>
 						</div>
 					</div>
+					<div class="clear"></div>
 				</div>
 				<div class="zk-center">
 					<span class="zkrank">Рейтинг:</span>
@@ -115,6 +120,7 @@
 						<a href="#" class="zk-add">Добавить в корзину</a>
 						<a href="#" class="zk-basket-button"></a>	
 					</div>
+					<div class="clear"></div>
 				</div>
 				<div class="zk-right">
 					<ul class="zk-right-boxs">
