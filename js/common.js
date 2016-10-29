@@ -69,9 +69,34 @@ var h_mrg = 0;    // отступ когда шапка уже не видна
 
 
 
-$('.zk-category').hover(function(){
-  $('.zk-show-menu',this).slideToggle(450);
+// $('.zk-category').hover( function(){
+//   setTimeout( function(){
+//       clearTimeout();
+//       $('.zk-show-menu', this).slideToggle(450);
+//     }, 500);        
+// });
+
+// $('.zk-category').hover(function(){
+//   var nav = $('.zk-show-menu', this);
+//   setTimeout( function(){      
+//       nav.slideToggle(450);
+//      }, 1000);   
+// });
+
+
+$('.zk-button-comments').css("display", "none");
+
+$('#tab_l1').on('click', function(){
+  $('.zk-button-comments').hide();
+   $('.zk-desc').show();
 });
+
+$('#tab_l2').on('click', function(){
+  $('.zk-button-comments').css("display", "block").show();
+   $('.zk-desc').hide();
+});
+
+
 
 
   var owl = $("#owl-demo");

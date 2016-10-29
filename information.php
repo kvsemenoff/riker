@@ -58,7 +58,7 @@
 		<div class="col-md-9">
 			<div class="zk-content-info">
 				<div class="zk-caption-info">
-					<div>Международная выставка одежды Salon De Fashion</div>
+					<span>Международная выставка одежды Salon De Fashion</span>
 				</div>					
 				<div class="zk-newsContent">
 					<div class="zk-left">
