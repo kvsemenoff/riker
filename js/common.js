@@ -41,12 +41,6 @@ $(document).ready(function(){
 
 
 
-<<<<<<< HEAD
-=======
-
-
-
->>>>>>> 2d964ce895a419a83bb2a1b430d58c5ead7007c7
 if(window.matchMedia('(min-width: 992px)').matches){
 var h_hght = 97; // высота шапки
 var h_mrg = 0;    // отступ когда шапка уже не видна
