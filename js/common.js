@@ -85,7 +85,7 @@ var h_mrg = 0;    // отступ когда шапка уже не видна
 
 $('.zk-button-comments').css("display", "none");
 
-$('#tab_l1').on('click', function(){
+$('#tab_l1').on('click', function(){                   //<<<<<<<<<<<<<<<<<<swith link on button-comments
   $('.zk-button-comments').hide();
    $('.zk-desc').show();
 });
@@ -94,6 +94,10 @@ $('#tab_l2').on('click', function(){
   $('.zk-button-comments').css("display", "block").show();
    $('.zk-desc').hide();
 });
+
+
+
+
 
 
 
