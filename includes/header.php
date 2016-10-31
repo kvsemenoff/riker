@@ -41,7 +41,7 @@
 	</div>
 </section>
 <div class="ab-script">
-<section class="tpl-menuTop">
+<section class="tpl-menuTop hidden-sm hidden-xs">
 	<div class="container">
 		<div class="col-md-12">
 			<div class="brd">
@@ -85,3 +85,47 @@
 	</div>
 </section>
 </div>
+	<div class="anz-menu">
+        <input type="checkbox" id="check_1" class=""/>
+        <label class="anz-menu-ch hidden-lg hidden-md" for="check_1"><i class="fa fa-bars" aria-hidden="true"></i></label>
+        <div class="anz-perspective">
+            <div class="menu-list-pressed">
+                <label class="anz-menu-ch1" for="check_1"><i class="fa fa-times" aria-hidden="true"></i></label>
+                <ul class="main-menu">
+					<li><a href="#">Женская обувь</a></li>
+					<li><a href="#">Мужская обувь</a></li>
+					<li><a href="#">Детская обувь</a></li>
+					<li><a href="#">Сумки</a></li>
+					<li class="ab-s"><a href="#">Бренды</a>
+						<ul class="ab-next-menu">
+							<li class="Reiker">Reiker
+							<hr>
+							</li>
+
+							<li><a href="#">- Мужская обувь</a></li>
+							<li class="ab-h"><a href="#">- Женская обувь</a>
+							<hr class="thr">
+							</li>
+							<li class="Reiker Reiker2">Remonte
+							<hr class="thr thr2">
+								<hr class="thr thr3">
+									<hr class="thr thr4">
+							</li>
+							<li><a href="#">- Женская обувь</a>
+						
+							</li>
+							<li class="Reiker Reiker2">Marco tozzi</li>
+							<li><a href="#">- Женская обувь</a></li>
+						</ul>
+					</li>
+					<li class="ab-proc"><a href="#">Распродажа</a></li>
+					<li class="blk-search">
+						<form action="/catalog/">
+						<input id="title-search-input" name="q" value="" autocomplete="off" type="text">
+						<input value="Найти" type="submit">
+						</form>
+					</li>
+				</ul>
+            </div>
+        </div>
+    </div>
