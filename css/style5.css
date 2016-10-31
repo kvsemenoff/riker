@@ -524,12 +524,13 @@
 .zk-category .zk-show-menu {
   display: block;
   overflow: hidden;
-  height: 0px; }
+  height: 0px;
+  transition-property: all 1s ease-in-out; }
 
 .zk-category:hover .zk-show-menu {
   display: block;
   height: 50px;
-  animation: anim 0.5s ease-in-out 0.25s;
+  animation: anim 0.7s ease-in-out 0.3s;
   animation-fill-mode: both; }
 
 @media only screen and (min-width: 320px) {
