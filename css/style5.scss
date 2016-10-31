@@ -199,7 +199,6 @@
     margin-right: 14px;
     margin-top: 15px;
     position: relative;
-
     .zk-product{
     	.zk-bg-product{
     		background: #fff;
@@ -227,11 +226,10 @@
 				    //height: 38px;
 				    width:120px;
 				    //display: inline-block;			   		   			   
-		    	}
-		    	.zk-title:hover{
-		    		border:none;
-
-		    	}
+		    	}		    	
+	    		.zk-title:hover{
+	    			border:none;
+				}		    	
 		    }
 		    .zk-status-product {
 		    	font-size: 13px;
@@ -240,8 +238,9 @@
     			font-family: MC-700;
     			img{
     				width: 8px;
-    				height: 6px;
+    				height: 6px;    				
     			}
+    		
 		    }
 		    .zk-price{
 		    	border-top: 1px solid #e5e5e3;		    	
@@ -264,7 +263,7 @@
     		background: #fff;
 		    border-radius: 0px 0 6px 6px;
 		    box-shadow: 0 2px 5px #dcdcdc;
-		    width: 150px;	    		    	
+		    width: 150px;		     		    	
     		.zk-read-more{
     			background: #c40237;
 			    border: 3px solid #c40237;
@@ -295,7 +294,7 @@
     		.zk-basket:hover{
     			background: url(..//img/ico-addBasket-hover.png);
     		}    		
-    	}
+    	}    	
     }
 }
 
@@ -527,8 +526,7 @@
 				background: none;
 				color: #c40237;				
     		}
-    		.zk-basket-button{
-    			
+    		.zk-basket-button{    			
 				text-align: center;
     			background: url(..//img/ico-addBasket.png)center left no-repeat;
     			width: 20px;//20
@@ -723,31 +721,30 @@
 
 									//animation show menu
 		
-@keyframes anim{
+@keyframes anim{	
 	0%{
 		height: 0px;
-	}
+	}	
 	100%{
-		height: 50px;
-	}
+		height: 50px;		
+	}	
 }
-
 .zk-category{
 	.zk-show-menu{
 		display: block;
 		overflow: hidden;
-		height: 0px;		
+		height: 0px;
+		transition-property: all 1s ease-in-out;			
 	}
 }
-.zk-category:hover{
+.zk-category:hover{	
 	.zk-show-menu{
 		display: block;
 		height: 50px;
-		animation: anim 0.5s ease-in-out 0.25s;
-		animation-fill-mode: both;		
-	}
+		animation: anim 0.7s ease-in-out 0.3s;
+		animation-fill-mode: both;			
+	}	
 }
-
 						
 
 @media only screen and (min-width : 320px) {

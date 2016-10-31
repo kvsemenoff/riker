@@ -37,12 +37,12 @@ $(document).ready(function(){
 
     //====slidemenu===category.php=======
 
+// $('.zk-category').setTimeout(function(){
+//     $('.zk-show-menu', this).hover(); 
+// }, 500);
 
-// $('.zk-category').hover( function(){
-//   setTimeout( function(){
-//       clearTimeout();
-//       $('.zk-show-menu', this).slideToggle(450);
-//     }, 500);        
+// $('.zk-category').hover( function(){  
+//     $('.zk-show-menu', this).slideToggle(450);        
 // });
 
 // $('.zk-category').hover(function(){
