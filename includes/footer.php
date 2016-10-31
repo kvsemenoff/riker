@@ -2,6 +2,10 @@
 <section class="footer">
     <div class="container">
         <div class="row">
+        	<div class="col-md-8 col-sm-12 col-xs-12 ">
+        		<hr class="hr-footer">
+        	</div>
+        	<div class="clearfix"></div>
             <div class="col-md-8 col-sm-8 col-xs-12 ">
 		      <ul class="ah-footer-list">
 		      	<li><a href="#">Каталог товаров</a></li>

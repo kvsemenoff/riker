@@ -110,6 +110,10 @@
 }
 .footer{
 	margin-top: 50px;
+	position:relative;
+	.hr-footer{
+		display: none;
+	}
 }
 .ah-footer-list{
 	display: block;
@@ -120,7 +124,7 @@
 		margin-bottom: 12px;
 		a{
 		    color: #737678;
-		    font-family: MSC-2;
+		    font-family: MC-700;
 		    font-size: 12px;
 		    line-height: 10px;
 		}
@@ -133,7 +137,7 @@
 	li:first-child{
 		margin-bottom: 20px !important;
 		a{
-			color: #cbd3d8  !important;
+			color: #A5ADB2  !important;
 			border-bottom: 2px solid transparent;
 			transition: border-bottom 0.7s ease 0s;
 		}
@@ -195,12 +199,14 @@
 	display: block;
 	vertical-align: middle;
 	text-align: center;
-    color: #c5c5c5;
-    font-family: MC-300;
+    //color: #c5c5c5;
+    color: #434343;
+    font-family: MC-700;
     font-size: 15px;
     span{
-	    color: #434343;
-	    font-family: MC-700;
+	    //color: #434343;
+	    color: #c5c5c5;
+	    font-family: MC-300;
     }
 }
 .ah-fotbotblock{
@@ -251,6 +257,19 @@
 }
 
 @media only screen and (min-width : 992px) {
+	
+	.footer{
+	margin-top: 50px;
+	position:relative;
+		.hr-footer{
+			display: block;
+			width: 668px;
+			height: 1px;
+			position:absolute;
+			top:12px;
+		}
+	}
+
 	.ah-newswrapp{
 		margin-bottom: 0px;
 	}
@@ -321,12 +340,14 @@
 		display: table-cell;
 		vertical-align: middle;
 		text-align: right;
-	    color: #c5c5c5;
-	    font-family: MC-300;
+		color: #434343;
+	    //color: #c5c5c5;
+	    font-family: MC-700;
 	    font-size: 15px;
 	    span{
-		    color: #434343;
-		    font-family: MC-700;
+	    	color: #c5c5c5;
+		    //color: #434343;
+		    font-family: MC-300;
 	    }
 	}
 }
