@@ -10,7 +10,9 @@
 				с доставкой по России
 			</span>
 		</div>
+		
 		<div class="ab-phone">
+		<hr> 
 			<span class="ab-grey1">8(800)</span><span class="ab-next-phone">707-01-81</span><br>
 			<span class="ab-grey2">Звонок по России бесплатный</span>
 		</div>
@@ -18,9 +20,13 @@
 			<span>Мы в</span>
 			<a href="#"><img src="img/ico-vk.png" alt=""></a>
 			<a href="#"><img src="img/ico-insta.png" alt=""></a>
+
 		</div>
 		<div class="ab-korzina-wrap">
-			<img src="img/korzina.png" alt="">
+			<div class="ab-korz-wrap">
+				<hr class="hr2">
+				<img src="img/korzina.png" alt="">
+			</div>
 			<div class="ab-two-wr">
 				<div class="ab-korzina">
 					<span><a href="#">Корзина</a></span>
@@ -34,7 +40,7 @@
 		<div class="clearfix"></div>
 	</div>
 </section>
-
+<div class="ab-script">
 <section class="tpl-menuTop">
 	<div class="container">
 		<div class="col-md-12">
@@ -46,12 +52,23 @@
 					<li><a href="#">Сумки</a></li>
 					<li class="ab-s"><a href="#">Бренды</a>
 						<ul class="ab-next-menu">
-							<li class="Reiker">Reiker</li>
+							<li class="Reiker">Reiker
+							<hr>
+							</li>
+
 							<li><a href="#">- Мужская обувь</a></li>
-							<li><a href="#">- Женская обувь</a></li>
+							<li class="ab-h"><a href="#">- Женская обувь</a>
+							<hr class="thr">
+							</li>
+							<li class="Reiker Reiker2">Remonte
+							<hr class="thr thr2">
+								<hr class="thr thr3">
+									<hr class="thr thr4">
+							</li>
+							<li><a href="#">- Женская обувь</a>
+						
+							</li>
 							<li class="Reiker Reiker2">Marco tozzi</li>
-							<li><a href="#">- Женская обувь</a></li>
-							<li class="Reiker Reiker2">Remonte</li>
 							<li><a href="#">- Женская обувь</a></li>
 						</ul>
 					</li>
@@ -67,3 +84,4 @@
 		</div>
 	</div>
 </section>
+</div>

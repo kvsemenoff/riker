@@ -36,6 +36,7 @@
 			font-size: 21px;
 			font-family: MC-700;
 		}
+		hr{display:none;}
 	}
 	.ab-soc{
 		margin: 0 auto;
@@ -55,12 +56,19 @@
 		margin: 0 auto;
 		position: relative;
 		margin-top: 12px;
-		img{
-			width: 32px;
-			height: 32px;
-			position:absolute;
-			top: 9px;
-			}
+		.hr2{
+			display: none;
+		}
+		.ab-korz-wrap{
+			border: 1px solid #F0F0F0;
+		    border-radius: 28px;
+		    height: 56px;
+		    padding: 10px;
+		    position: absolute;
+		    top: 5px;
+		    left: -14px;
+		    width: 56px;
+		}
 		.ab-two-wr{
 			padding-left:52px;
 			.ab-korzina{
@@ -136,6 +144,10 @@
 						text-transform: none;
 						padding-bottom:15px;
 						color:#717678;
+						//border-bottom:1px solid red;
+						hr{
+							display: none;
+						}
 				    }
 				    .Reiker2{
 						padding-top:15px;
@@ -160,7 +172,7 @@
 
 
     		.blk-search{
-				width: 220px;
+				width: 217px;
 				margin: 0 auto; 
 				input[type="text"] {
 				    background: #f9f9f9 url("/img/ico-search.png") no-repeat scroll 9px center;
@@ -209,19 +221,46 @@
 /*============== Сайдбар ==============*/
 
 .blk-menu{
-	padding-right: 20px;
+	//padding-right: 20px;
     width: 100%;
+    .ab-wr{
+    	border: 1px solid #e5e5e3;
+    	border-radius:5px;
+    	overflow: hidden;
+    }
     
     ul{
-    	border: 1px solid #e5e5e3;
+    	//border: 1px solid #e5e5e3;
 	    border-radius: 4px;
 	    box-sizing: padding-box;
 	    list-style: outside none none;
 	    padding: 0;
 	    li{
 	    	position:relative;
-	    	border-top: 1px solid #e5e5e3;
+	    	//border-top: 1px solid #e5e5e3;
 	    	transition: background-color 0.5s ease 0s, color 0.5s ease 0s;
+	    	.menuslides{
+	    		li{
+					border-top: 1px solid #e5e5e3;
+	    		}
+	    		li:hover{
+	    			background:#E50035;
+	    		}
+	    		li:hover a{
+	    			color:#fff;
+	    		}
+	    		li:first-child{
+	    			border-top:none;
+	    		}
+	    	}
+	    	.abb{
+				background-color: #cbd3d8;
+			    color: #fff;
+			    font-family: MSC-2;
+			    font-size: 11px;
+			    padding: 13px;
+			    //border-top:none;
+	    	}
 	    	a{
 	    		color: #737678;
 			    display: block;
@@ -250,28 +289,8 @@
 			right: 25px;
 		    top: 11px;
 	    }
-	    li:hover{
-	    	background:#E50135;
-
-	    	a{
-	    		color:#fff;
-	    	}
-	    }
-	    .ab-l{
-	    	height: 20px;
-	    }
-	    .ab-l:hover{
-			background:none;
-	    }
-	    .h{
-	    	background-color: #cbd3d8;
-		    color: #fff;
-		    font-family: MSC-2;
-		    font-size: 11px;
-		    padding: 13px;
-		    border-top:none;
-
-	    }
+	   
+	  
 	    .h:after{
 	    	position:absolute;
 	    	content: "";
@@ -281,36 +300,34 @@
 			right: 25px;
 		    top: 11px;
 	    }
-	    .h:hover{
-	    	background:#CBD3D8;
-	    }
-	    
     }
 }
 .blk-menu2{
-	margin-top:-10px;
+	margin-top: 18px;
 	margin-bottom: 8px;
-	  .h2{
-	    	background-color: #cbd3d8;
-		    color: #fff;
-		    font-family: MSC-2;
-		    font-size: 11px;
-		    padding: 13px;
-		    border-top:none;
+	border: 1px solid #e5e5e3;
+	border-radius:5px;
+	overflow: hidden;
+	.ab-none{
+		display: block;
+	}
+    .abb{
+    	background-color: #cbd3d8;
+			    color: #fff;
+			    font-family: MSC-2;
+			    font-size: 11px;
+			    padding: 13px;
 
-	    }
-	    .h2:after{
-	    	position:absolute;
-	    	content: "";
-	    	background:url("/img/ico-men.png") no-repeat right center;
-			width: 16px;
-			height: 16px;
-			right: 25px;
-		    top: 11px;
-	    }
-	    .h2:hover{
-	    	background:#CBD3D8;
-	    }
+    }
+    .h2:after{
+    	position:absolute;
+    	content: "";
+    	background:url("/img/ico-men.png") no-repeat right center;
+		width: 16px;
+		height: 16px;
+		right: 25px;
+	    top: 11px;
+    }
 }
 
 /*========== Конец Сайдбара ==========*/
@@ -500,6 +517,7 @@
 		    left: 0;
 		    position: absolute;
 		    width: 100%;
+
 		}
 	}
 	.ab-news{
@@ -761,6 +779,7 @@
 	}
 	.zk-img2{
 		padding: 6px 8px 0 14px;
+		overflow: hidden;
 	}
 
 	.zk-show-menu {
@@ -1036,18 +1055,51 @@
 			margin-left: 15px;
 			text-align: left;
 			float: left;
+			//position:relative;
+		}
+		hr{
+			display: block !important;
+			background: #E5E5E3;
+		    height: 96px;
+		    left: -32px;
+		    position: absolute;
+		    top: -22px;
+		    width: 1px;
 		}
 		.ab-phone{
 			float: left;
+			position:relative;
 		}
 		.ab-soc{
 			float: left;
+			
+			
 		}
 		.ab-korzina-wrap{
 			float: right;
+			position:relative;
+			.hr2{
+				background: #e5e5e3 none repeat scroll 0 0;
+			    display: block !important;
+			    height: 96px;
+			    left: -63px;
+			    position: absolute;
+			    top: -40px;
+			    width: 1px;
+			}
 		}
 	}
+	.ab-script{
+		width: 100%;
+		margin-top: 9px;
+		height: 55px; 
+	}
 	.tpl-menuTop {
+		//position:fixed;
+		background:#fff;
+		width: 100%;
+		z-index: 1000;
+		// height: 55px;
 	    .brd{
 	    	ul{
 	    		li{
@@ -1063,13 +1115,46 @@
 				    }
 				    .ab-next-menu{
 				    	display: none;
+				    	.ab-h{
+				    		position:relative;
+					    	.thr{
+								position:absolute;
+								display: block !important;
+								height: 1px;
+								background:#ECF1F4;
+								width: 197px;
+								left: -22px;
+								top:8px;
+					    	}
+				    	}
 				    }
 				    .Reiker{
 						text-transform: none;
 						padding-bottom:15px;
+						position:relative;
+				    	hr{
+							position:absolute;
+							display: block !important;
+							height: 1px;
+							background:#ECF1F4;
+							width: 197px;
+							left: -22px;
+							top:-2px;
+							//z-index: 9999;
+				    	}
 				    }
+
 				    .Reiker2{
 						padding-top:15px;
+						.thr2{
+							top:15px;
+						}
+						.thr3{
+							top:50px;
+						}
+						.thr4{
+							top:80px;	
+						}
 				    }
 	    		}
 	    		.ab-s{
@@ -1107,6 +1192,7 @@
 			    top: 6px;
     		}
 	    		li:hover .ab-next-menu{
+	    			box-shadow: 0 2px 5px #eaeaea;
 	    			text-align: left;
 					display: block;
 					position:absolute;
@@ -1119,6 +1205,11 @@
 					border-radius:5px;
 					//outline: 1px solid red;
 					z-index: 9999;
+					.ab-h{
+				    	.thr{
+							display: none;
+				    	}
+			    	}
 			    	li{
 						display: block;
 						border-right:none;
@@ -1148,7 +1239,12 @@
 				}
 	    	}
 	    }
-	}		
+	}
+	.blk-menu2{
+		.ab-none{
+			display: none;
+		}
+	}			
 }
 
 @media only screen and (min-width : 1248px) {
