@@ -40,10 +40,13 @@ $(document).ready(function(){
     //====slidemenu===category.php=======
 
 
+<<<<<<< HEAD
 // $('.zk-category').setTimeout(function(){
 //     $('.zk-show-menu', this).hover(); 
 // }, 500);
 
+=======
+>>>>>>> c0032cfbbc220378944691098ea56ccfbb474319
 if(window.matchMedia('(min-width: 992px)').matches){
 var h_hght = 97; // высота шапки
 var h_mrg = 0;    // отступ когда шапка уже не видна

@@ -20,6 +20,8 @@
       display: inline-block; }
       .about-company .zk-button-text .button-link span {
         border-bottom: 1px dashed #0066b0; }
+      .about-company .zk-button-text .button-link span:hover {
+        border-bottom: 1px solid transparent; }
   .about-company .blk-left {
     max-height: 318px;
     float: left;
@@ -616,7 +618,8 @@
     min-height: 200px; } }
 @media only screen and (min-width: 1248px) {
   .blk-right {
-    width: 63%; }
+    width: 63%;
+    padding: 3% 20px 0% 25px !important; }
 
   .zk-category-5box {
     padding-left: 0%; }
