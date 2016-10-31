@@ -22,6 +22,9 @@
 			span{
 				border-bottom: 1px dashed #0066b0;	
 			}
+			span:hover{
+				border-bottom: 1px solid rgba(0,0,0,0.0);
+			}
 		}		
 	}		
 	.blk-left{
@@ -783,9 +786,7 @@
 		}
 		.blk-right{
 			width: 60%;
-			padding:1% 20px 0% 25px;
-			
-					
+			padding:1% 20px 0% 25px;					
 		}	   
 	}
 	.zk-category-5box{
@@ -801,7 +802,7 @@
 
 
 
-				//SEPARATEPRODUCT**************/
+				//SEPARATE-PRODUCT**************/
 
 .zk-product-block{	
 	.zk-left{
@@ -816,8 +817,7 @@
 			}
 			.zk-middle-box{
 				margin: 0;
-			}
-			
+			}			
 			.zk-box-comments{
 				.zk-comment-links{									
 					#tab_l1, #tab_l2{
@@ -870,13 +870,13 @@
 		min-height: 200px;				
 	}
 }
-
 }
 
 @media only screen and (min-width : 1248px) {
 	.blk-right{
-			width: 63%;
-		}
+		width: 63%;			
+		padding:3% 20px 0% 25px !important;		  
+	}
 	.zk-category-5box{
 		padding-left: 0%;
 	}
@@ -884,7 +884,6 @@
 		margin-top: 0%;
 	}		 
 }
-
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     //outline: 5px solid red;
 }

@@ -39,11 +39,7 @@ $(document).ready(function(){
 
     //====slidemenu===category.php=======
 
-<<<<<<< HEAD
-// $('.zk-category').setTimeout(function(){
-//     $('.zk-show-menu', this).hover(); 
-// }, 500);
-=======
+
 if(window.matchMedia('(min-width: 992px)').matches){
 var h_hght = 97; // высота шапки
 var h_mrg = 0;    // отступ когда шапка уже не видна
@@ -73,7 +69,7 @@ var h_mrg = 0;    // отступ когда шапка уже не видна
 }
 
 
->>>>>>> 27df4ade0bd24661a4d27c963b8556ccad49b7dc
+
 
 // $('.zk-category').hover( function(){  
 //     $('.zk-show-menu', this).slideToggle(450);        
